@@ -24,10 +24,10 @@ nav {
 
 
 /* Styles for mobile devices */
-/*@media screen and (min-width: 1024px) and (max-width: 1388px) {
+@media screen and (min-width: 1024px) and (max-width: 1388px) {
     /* Your CSS rules for mobile */
 
-/*    p{
+    p{
         font-size: medium;
     }
     #contactList{
@@ -48,9 +48,9 @@ nav {
   }
   
   /* Styles for tablets */
-  /* @media screen and (min-width: 450px) and (max-width: 1023px) {
+  @media screen and (min-width: 450px) and (max-width: 1023px) {
     /* Your CSS rules for tablets */
- /*   p{
+    p{
         font-size: small;
     }
     #contactList{
@@ -71,9 +71,9 @@ nav {
     }
   }
   /* Styles for tablets */
- /* @media screen and (min-width: 1px) and (max-width: 449px) {
+  @media screen and (min-width: 1px) and (max-width: 449px) {
     /* Your CSS rules for tablets */
- /*   body{
+    body{
         font-size: small;
     }
     p{

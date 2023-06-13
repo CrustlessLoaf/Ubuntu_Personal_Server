@@ -50,7 +50,7 @@ nav {
   /* Styles for tablets */
   /* @media screen and (min-width: 450px) and (max-width: 1023px) {
     /* Your CSS rules for tablets */
-    p{
+ /*   p{
         font-size: small;
     }
     #contactList{
@@ -71,7 +71,7 @@ nav {
     }
   }
   /* Styles for tablets */
-  @media screen and (min-width: 1px) and (max-width: 449px) {
+ /* @media screen and (min-width: 1px) and (max-width: 449px) {
     /* Your CSS rules for tablets */
     body{
         font-size: small;

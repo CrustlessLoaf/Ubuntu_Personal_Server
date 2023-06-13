@@ -83,20 +83,21 @@ nav {
         width: max-content;
     }
     #contactList li{ 
-        width: 8%;
+        padding-left:-49px;
     }
     #contactList a{
         font-size: 32%;
     }
     #contactList #email{
         font-size: 42%;
+        padding-right: 35px;
     }
     #PP {
         
         scale: 10%;
         margin-top: -60%;
         margin-bottom: -60%;
-        margin-left: -100%;
+        margin-left: -75%;
         display: block;
     }
   }

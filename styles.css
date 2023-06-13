@@ -24,7 +24,7 @@ nav {
 
 
 /* Styles for mobile devices */
-@media screen and (min-width: 1024px) and (max-width: 1388px) {
+/*@media screen and (min-width: 1024px) and (max-width: 1388px) {
     /* Your CSS rules for mobile */
 
 /*    p{
@@ -73,7 +73,7 @@ nav {
   /* Styles for tablets */
  /* @media screen and (min-width: 1px) and (max-width: 449px) {
     /* Your CSS rules for tablets */
-    body{
+ /*   body{
         font-size: small;
     }
     p{

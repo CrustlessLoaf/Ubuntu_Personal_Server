@@ -19,7 +19,7 @@ body{
 }
 nav {
   max-width: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -81,9 +81,6 @@ nav {
     }
     #contactList{
         width: max-content;
-    }
-    #contactList li{ 
-        padding-left:-49px;
     }
     #contactList a{
         font-size: 32%;

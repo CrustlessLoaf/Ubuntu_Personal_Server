@@ -89,3 +89,68 @@ div.bio {
 div.bio ul ul{
     font-size: small;
 }
+
+/* Styles for mobile devices */
+@media screen and (min-width: 1024px) and (max-width: 1388px) {
+    /* Your CSS rules for mobile */
+
+    p{
+        font-size: medium;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: small;
+    }
+    #contactList #email{
+        font-size: small;
+    }
+    #PP {
+        max-width: 300px;
+
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 450px) and (max-width: 1023px) {
+    /* Your CSS rules for tablets */
+    p{
+        font-size: small;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: x-small;
+    }
+    #contactList #email{
+        font-size: x-small;
+    }
+    #PP {
+        max-height: 200px;
+    }
+  }
+  /* Styles for tablets */
+  @media screen and (min-width: 1px) and (max-width: 449px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+    }
+    p{
+        font-size: xx-small;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: 32%;
+    }
+    #contactList #email{
+        font-size: 42%;
+        padding-right: 35px;
+    }
+    #PP {
+        max-height: 150px;
+    }
+  }

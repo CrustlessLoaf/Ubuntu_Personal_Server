@@ -150,7 +150,7 @@ div.bio ul ul{
     }
     nav ul li{
         display: inline-block;
-        padding-right: 5%;
+        padding-right: 4%;
     
     }
     #PP {
@@ -171,8 +171,8 @@ div.bio ul ul{
     }
     nav ul{
         display: inline-block;
-        padding-right: 2%;    
-        overflow-x: scroll;
+        padding-right: 4%;    
+        font-size: 55%;
     }
     nav{
         font-size: xx-small;

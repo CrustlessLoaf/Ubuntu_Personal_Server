@@ -94,7 +94,7 @@ nav{
         font-size: small;
     }
     p.art{
-        font-size: small;
+        font-size: x-small;
     }
 }
   @media screen and (min-width: 1px) and (max-width: 616px) {
@@ -103,7 +103,7 @@ nav{
         font-size: small;
     }
     p.art{
-        font-size: .6em;
+        font-size: .4em;
     }
     #nameTitle2 span{
         font-size: large;

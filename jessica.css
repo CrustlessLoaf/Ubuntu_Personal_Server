@@ -1,50 +1,4 @@
-#PP {
-    position: solid;
-    display: block;
-    margin-top: -10%;
-    margin-bottom: -10%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 16cm;
-    border: solid;
-    scale: 0.5;
- }
- body{
-     display: block;
-     width: 100%;
-     text-align: left;
-     background: rgb(45, 10, 45);
-     color: greenyellow;
-     font-size: x-large;
-     font-weight: bold;
- }
- nav {
-   max-width: auto;
-   overflow: auto;
- }
- 
- 
- /* Styles for mobile devices */
- @media screen and (max-width: 480px) {
-     /* Your CSS rules for mobile */
-   }
-   
-   /* Styles for tablets */
-   @media screen and (min-width: 481px) and (max-width: 1024px) {
-     /* Your CSS rules for tablets */
-   }
-   
-   /* Styles for desktops */
-   @media screen and (min-width: 1025px) {
-     /* Your CSS rules for desktops */
-   }
- /*@media screen and (max-width: 600px) {
-   #contactList li {
-     font-size: 0.8em;
-     margin: 0 5px;
-   }
- }*/
- #jess{
+body{
      text-align: left;
      background-color: white;
      background-image: url(conf.png);
@@ -53,29 +7,33 @@
      font-size: x-large;
      font-weight: bold;
  }
- #jess p{
-     background-color: rgb(0, 0, 0);
-     margin-left: 5%;
-     margin-right: 10%;
- }
- #jess ul{
+ul{
      background-color: rgb(0, 0, 0);
      margin-left: 8%;
      margin-right: 10%;
  
  }
- #jess h2{
+h2{
      background-color: rgb(0, 0, 0);
      margin-right: 80%;
  }
- #jess nav{
+nav{
      background-color: rgb(0, 0, 0);
      margin-right: 80%;
  }
- p{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     text-align: left;
-     text-indent: 3ex;
+ p.jess{
+    display: flex;
+    justify-content: left;
+ }
+ div.jess{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-indent: 3ex;
  }
  a{
      color: lightblue;
@@ -109,40 +67,45 @@
      text-align: center;
  }
  
- 
- .bio{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     text-align: left;
-     max-width: 100%;
-     width: 1200px;
-     margin: 0px auto;
-     padding: 0 auto;
- 
- }
- #exp li{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     position: relative;
-     width: 1200px;
-     margin: 0 auto;
-     padding: 0 auto;
- }
- ul #exp{
-     position: relative;
-     left: 100px;
- }
- 
- #linkedin {
-     color: rgb(128, 147, 255);
-     text-align: center;
- }
- #instagram{
-     color: rgb(128, 147, 255);
-     text-align: center;
- }
- #email {
-     position: inherit;
-     color: rgb(128, 147, 255);
-     text-align: center;
-     text-decoration: underline;
- }
- 
+/* Styles for mobile devices */
+@media screen and (min-width: 1124px) and (max-width: 1932) {
+    /* Your CSS rules for mobile */
+
+    p.art{
+        font-size: large;
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 777px) and (max-width: 1123px) {
+    /* Your CSS rules for tablets */
+    p.art{
+        font-size: medium;
+    }
+    #nameTitle2 span{
+        font-size: xx-large;
+    }
+
+  }
+  /* Styles for tablets */
+  @media screen and (min-width: 480px) and (max-width: 777px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+    }
+    p.art{
+        font-size: small;
+    }
+}
+  @media screen and (min-width: 1px) and (max-width: 616px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+    }
+    p.art{
+        font-size: xx-small;
+    }
+    #nameTitle2 span{
+        font-size: large;
+    }
+  }

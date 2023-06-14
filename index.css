@@ -51,6 +51,7 @@ nav{
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    font-weight: bold;
 }
 nav ul{
     position: relative;
@@ -126,6 +127,13 @@ div.bio ul ul{
     #PP {
         max-height: 200px;
     }
+    div.bio {
+        font-size: small;
+        font-weight: bold;
+    }
+    div.bio ul ul{
+        font-size: x-small;
+    }
   }
   /* Styles for tablets */
   @media screen and (min-width: 1px) and (max-width: 1099px) {
@@ -148,9 +156,19 @@ div.bio ul ul{
     #PP {
         max-height: 150px;
     }
+    div.bio {
+        font-size: x-small;
+        font-weight: bold;
+    }
+    div.bio ul ul{
+        font-size: xx-small;
+    }
   }
   @media screen and (min-width: 1px) and (max-width: 479px) {
     /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+    }
     nav ul{
         display: inline-block;
         padding-right: 2%;    
@@ -159,5 +177,15 @@ div.bio ul ul{
     nav{
         font-size: xx-small;
         
+    }
+    #PP {
+        max-height: 150px;
+    }
+    div.bio {
+        font-size: x-small;
+        font-weight: bold;
+    }
+    div.bio ul ul{
+        font-size: xx-small;
     }
   }

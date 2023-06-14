@@ -169,14 +169,15 @@ div.bio ul ul{
     body{
         font-size: small;
     }
-    nav ul{
-        display: inline-block;
-        padding-right: 4%;    
-        font-size: 55%;
-    }
     nav{
         font-size: xx-small;
         
+    }
+    nav ul li{
+        display: inline-block;
+        padding-right: 2%;
+        font-size: 0.5em;
+    
     }
     #PP {
         max-height: 150px;

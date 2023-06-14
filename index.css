@@ -39,21 +39,28 @@ body{
 #contact{
     background-color: rgb(111, 2, 22);
     margin: auto;
+}
+nav{
+    background-color: rgb(111, 2, 22);
+    margin: auto;
     position: sticky;
     top:60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
-#contact nav{
-    display: inline-block;
-}
-#contact ul{
+nav ul{
     position: relative;
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
+
 }
-#contact nav ul li{
+nav ul li{
     display: inline-block;
-    padding-left: 20%;
+    padding-right: 10%;
 
 }
 #linkedin {
@@ -91,20 +98,14 @@ div.bio ul ul{
 }
 
 /* Styles for mobile devices */
-@media screen and (min-width: 1024px) and (max-width: 1388px) {
+@media screen and (min-width: 1377px) and (max-width: 1739px) {
     /* Your CSS rules for mobile */
 
     p{
         font-size: medium;
     }
-    #contactList{
-        width: max-content;
-    }
-    #contactList a{
-        font-size: small;
-    }
-    #contactList #email{
-        font-size: small;
+    nav{
+        font-size: medium;
     }
     #PP {
         max-width: 300px;
@@ -113,44 +114,49 @@ div.bio ul ul{
   }
   
   /* Styles for tablets */
-  @media screen and (min-width: 450px) and (max-width: 1023px) {
+  @media screen and (min-width: 1099px) and (max-width: 1376px) {
     /* Your CSS rules for tablets */
     p{
         font-size: small;
     }
-    #contactList{
-        width: max-content;
-    }
-    #contactList a{
-        font-size: x-small;
-    }
-    #contactList #email{
-        font-size: x-small;
+    nav{
+        font-size: small;
     }
     #PP {
         max-height: 200px;
     }
   }
   /* Styles for tablets */
-  @media screen and (min-width: 1px) and (max-width: 449px) {
+  @media screen and (min-width: 1px) and (max-width: 1099px) {
     /* Your CSS rules for tablets */
     body{
         font-size: small;
     }
     p{
+        font-size: x-small;
+    }
+    nav{
         font-size: xx-small;
+        
     }
-    #contactList{
-        width: max-content;
-    }
-    #contactList a{
-        font-size: 32%;
-    }
-    #contactList #email{
-        font-size: 42%;
-        padding-right: 35px;
+    nav ul li{
+        display: inline-block;
+        padding-right: 5%;
+    
     }
     #PP {
         max-height: 150px;
+    }
+  }
+  @media screen and (min-width: 1px) and (max-width: 479px) {
+    /* Your CSS rules for tablets */
+    nav ul{
+        display: inline-block;
+        padding-right: 2%;    
+        overflow-x: scroll;
+    }
+    nav{
+        font-size: xx-small;
+        
     }
   }

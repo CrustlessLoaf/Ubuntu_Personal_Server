@@ -136,7 +136,7 @@ div.bio ul ul{
     }
   }
   /* Styles for tablets */
-  @media screen and (min-width: 1px) and (max-width: 1099px) {
+  @media screen and (min-width: 480px) and (max-width: 1099px) {
     /* Your CSS rules for tablets */
     body{
         font-size: small;

@@ -94,7 +94,7 @@ nav{
         font-size: small;
     }
     p.art{
-        font-size: x-small;
+        font-size: medium;
     }
 }
   @media screen and (min-width: 1px) and (max-width: 616px) {

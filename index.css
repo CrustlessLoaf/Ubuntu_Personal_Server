@@ -171,7 +171,7 @@ div.bio ul ul{
     }
     nav{
         font-size: xx-small;
-        
+        top: 50px;
     }
     nav ul li{
         display: inline-block;

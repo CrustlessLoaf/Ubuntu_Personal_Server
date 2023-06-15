@@ -83,6 +83,7 @@ nav{
         font-size: medium;
 
   }
+}
   /* Styles for tablets */
   @media screen and (min-width: 480px) and (max-width: 777px) {
     /* Your CSS rules for tablets */
@@ -101,4 +102,4 @@ nav{
     #nameTitle2 span{
         font-size: large;
     }
-  }
+}

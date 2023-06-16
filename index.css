@@ -98,6 +98,10 @@ div.bio {
 div.bio ul ul{
     font-size: small;
 }
+#prs{
+    margin-left: auto;
+    margin-right:auto;
+}
 
 /* Styles for mobile devices */
 @media screen and (min-width: 1377px) and (max-width: 1739px) {

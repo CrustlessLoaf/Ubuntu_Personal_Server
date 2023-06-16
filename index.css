@@ -178,6 +178,10 @@ div.bio ul ul{
     div.bio ul ul{
         font-size: xx-small;
     }
+    .prVid{
+        width: 320px;
+        height: 180px;
+    }
   }
   @media screen and (min-width: 1px) and (max-width: 479px) {
     /* Your CSS rules for tablets */
@@ -203,5 +207,9 @@ div.bio ul ul{
     }
     div.bio ul ul{
         font-size: xx-small;
+    }
+    .prVid{
+        width: 160px;
+        height: 90px;
     }
   }

@@ -9,7 +9,6 @@ function removeBlur() {
   body.classList.remove('blurred');
 }
 
-image.addEventListener('mouseenter', addBlur);
-image.addEventListener('mouseleave', removeBlur);
+
 image.addEventListener('touchstart', addBlur);
 image.addEventListener('touchend', removeBlur);

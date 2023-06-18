@@ -115,7 +115,7 @@ div.bio ul ul{
 }
 
 /* Styles for mobile devices */
-@media screen and (min-width: 1377px) and (max-width: 1739px) {
+@media screen and (min-width: 1377px) {
     /* Your CSS rules for mobile */
 
     p{
@@ -128,6 +128,24 @@ div.bio ul ul{
         max-width: 300px;
 
     }
+    body.blurred *:not(#PP){
+        transition: 0.3s;
+        filter: blur(5px); /* Adjust the blur value as desired */
+    }
+    #PP:hover {
+        position: relative;
+        transform: scale(1.2); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+      }
+    .prVid:hover{
+        position: relative;
+        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+    }
+    
   }
   
   /* Styles for tablets */
@@ -149,6 +167,24 @@ div.bio ul ul{
     div.bio ul ul{
         font-size: x-small;
     }
+    body.blurred *:not(#PP){
+        transition: 0.3s;
+        filter: blur(5px); /* Adjust the blur value as desired */
+    }
+    #PP:hover {
+        position: relative;
+        transform: scale(1.2); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+      }
+    .prVid:hover{
+        position: relative;
+        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+    }
+    
   }
   /* Styles for tablets */
   @media screen and (min-width: 480px) and (max-width: 1099px) {
@@ -216,20 +252,3 @@ div.bio ul ul{
 
 
 
-body.blurred *:not(#PP){
-    transition: 0.3s;
-    filter: blur(5px); /* Adjust the blur value as desired */
-}
-#PP:hover {
-    position: relative;
-    transform: scale(1.2); /* Increase the scale value for a stronger pop effect */
-    z-index: 2;
-    transition: transform 0.3s;
-    box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
-  }
-.prVid:hover{
-    position: relative;
-    transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
-    z-index: 2;
-    transition: transform 0.3s;
-}

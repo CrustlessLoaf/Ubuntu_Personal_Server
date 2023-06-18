@@ -1,10 +1,10 @@
 const image = document.querySelector('#PP');
 const body = document.body;
 
-image.addEventListener('mouseenter', 'onclick', () => {
+image.addEventListener('mouseenter', 'click', () => {
   body.classList.add('blurred');
 });
 
-image.addEventListener('mouseleave', 'onclick', () => {
+image.addEventListener('mouseleave', 'click', () => {
   body.classList.remove('blurred');
 });

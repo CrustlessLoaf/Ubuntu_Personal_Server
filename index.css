@@ -2,10 +2,15 @@ body{
     text-align: left;
     background: rgb(22, 0, 22);
     color: rgb(32, 247, 42);
+    font-size: large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x:hidden;
 }
-
+h2.section{
+    display: inline;
+    margin-left: 10%;
+    margin-right: 90%;
+}
 #nameTitle{
     position: fixed;
     width: 100%;
@@ -97,6 +102,16 @@ div.bio {
 }
 div.bio ul ul{
     font-size: small;
+}
+#bugatti {
+    max-height: 20px;
+}
+#interestList{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #prTitle{
     display: flex;

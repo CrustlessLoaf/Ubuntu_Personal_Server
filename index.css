@@ -245,6 +245,10 @@ div.bio ul ul{
         font-size: small;
         overflow-x:hidden;
     }
+    h2.section{
+        margin-left: 5%;
+        margin-right: auto;
+    }
     nav{
         font-size: xx-small;
         top: 50px;

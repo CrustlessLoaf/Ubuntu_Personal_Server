@@ -8,9 +8,9 @@ body{
     overflow-x: hidden;
 }
 h2.section{
-    display: inline;
+    display: inline-flex;
     margin-left: 10%;
-    margin-right: 90%;
+    margin-right: auto;
 }
 #nameTitle{
     position: fixed;

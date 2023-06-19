@@ -8,10 +8,10 @@ body{
     overflow-x: hidden;
 }
 h2.section{
-    position: inherit;
     display: inline;
     margin-left: 10%;
     margin-right: 90%;
+    overflow-x: hidden;
 }
 #nameTitle{
     position: fixed;

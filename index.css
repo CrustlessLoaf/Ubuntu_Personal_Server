@@ -207,6 +207,7 @@ div.bio ul ul{
     /* Your CSS rules for tablets */
     body{
         font-size: small;
+        overflow-x:hidden;
     }
     p{
         font-size: x-small;
@@ -239,6 +240,7 @@ div.bio ul ul{
     /* Your CSS rules for tablets */
     body{
         font-size: small;
+        overflow-x:hidden;
     }
     nav{
         font-size: xx-small;

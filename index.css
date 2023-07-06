@@ -310,22 +310,22 @@ div.bio ul ul{
         top: 50px;
     }
     #desc li {
-        width: 21%;
+        width: 20%;
     }
     nav ul li{
-        width: 21%;
+        width: 20%;
     }
     #linkedin-image{
-        max-height: 40px;
+        max-height: 30px;
     }
     #email-image{
-        max-height: 40px;
+        max-height: 30px;
     }
     #instagram-image{
-        max-height: 40px;
+        max-height: 30px;
     }
     #rez-image{
-        max-height: 40px;
+        max-height: 30px;
     }
     #PP {
         max-height: 150px;

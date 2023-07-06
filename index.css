@@ -295,7 +295,7 @@ div.bio ul ul{
         height: 180px;
     }
   }
-  @media screen and (min-width: 1px) and (max-width: 479px) {
+  @media screen and (min-width: 0px) and (max-width: 479px) {
     /* Your CSS rules for tablets */
     body{
         font-size: small;

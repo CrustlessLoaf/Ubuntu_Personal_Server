@@ -11,16 +11,11 @@ function removeBlur() {
   body.classList.remove('blurred');
 }
 
+if (userAgent.includes('Instagram')) {
+  var ulElement = document.getElementById('your-ul-element-id');
 
-// Check if the user agent string contains 'Instagram'
-if (userAgent.includes('Instagram 8.4.0')) {
-  // Get the <ul> element you want to remove
-  var ulElement = document.getElementById('pics-link');
-
-  // Check if the <ul> element exists
   if (ulElement) {
-    // Remove the <ul> element
-    ulElement.parentNode.remove(ulElement);
+    ulElement.style.display = 'none';
   }
 }
 image.addEventListener('mouseenter', addBlur);

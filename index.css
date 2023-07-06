@@ -114,6 +114,22 @@ nav ul li{
     border: solid;
     max-height:400px;
  }
+ #flexer{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 400px;
+ }
+ #flexer img{
+    position: relative;
+    border-radius: 20cm;
+    border: solid;
+    max-height:400px;
+
+clip:rect(0px,60px,200px,0px);
+
+ }
 div.bio {
     display: flex;
     justify-content: center;
@@ -186,6 +202,12 @@ div.bio ul ul{
         z-index: 2;
         transition: transform 0.3s;
     }
+    #flexer img:hover{
+        position: relative;
+        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+    }
     
   }
   
@@ -218,6 +240,9 @@ div.bio ul ul{
         font-size: small;
     }
     #PP {
+        max-height: 200px;
+    }
+    #flexer img{
         max-height: 200px;
     }
     div.bio {
@@ -282,6 +307,9 @@ div.bio ul ul{
     #PP {
         max-height: 150px;
     }
+    #flexer img{
+        max-height: 150px;
+    }
     div.bio {
         font-size: x-small;
         font-weight: bold;
@@ -327,6 +355,9 @@ div.bio ul ul{
         max-height: 30px;
     }
     #PP {
+        max-height: 150px;
+    }
+    #flexer img{
         max-height: 150px;
     }
     div.bio {

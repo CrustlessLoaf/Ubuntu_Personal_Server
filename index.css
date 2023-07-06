@@ -75,17 +75,20 @@ nav ul li{
     justify-content: center;
 }
 #linkedin {
-    color: rgb(128, 147, 255);
+    color: rgb(9, 223, 27);
+    text-decoration: none;
 }
 #instagram{
-    color: rgb(128, 147, 255);
+    color: rgb(9, 223, 27);
+    text-decoration: none;
 }
 #email {
-    color: rgb(128, 147, 255);
-    text-decoration: underline;
+    color: rgb(9, 223, 27);
+    text-decoration: none;
 }
 #resume{
-    color: rgb(128, 147, 255);
+    color: rgb(9, 223, 27);
+    text-decoration: none;
 }
 #linkedin-image{
     max-height: 90px;

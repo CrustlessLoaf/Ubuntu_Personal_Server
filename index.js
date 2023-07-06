@@ -22,5 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
   image.addEventListener('mouseenter', addBlur);
   image.addEventListener('mouseleave', removeBlur);
-  print(userAgent)
+  alert(userAgent)
 });

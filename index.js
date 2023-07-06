@@ -11,4 +11,3 @@
 
   image.addEventListener('mouseenter', addBlur);
   image.addEventListener('mouseleave', removeBlur);
-  ;

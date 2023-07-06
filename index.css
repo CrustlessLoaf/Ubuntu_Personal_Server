@@ -169,7 +169,7 @@ div.bio ul ul{
         max-width: 300px;
 
     }
-    body.blurred *:not(#PP){
+    body.blurred *:not(#PP):not(#profile){
         transition: 0.3s;
         filter: blur(5px); /* Adjust the blur value as desired */
     }

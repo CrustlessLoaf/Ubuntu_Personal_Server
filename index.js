@@ -1,7 +1,4 @@
-const image = document.querySelector('#PP');
-const body = document.body;
-
-function hideUlElement() {
+document.addEventListener("DOMContentLoaded", function() {
   var userAgent = navigator.userAgent;
 
   if (userAgent.includes('Instagram')) {
@@ -11,17 +8,18 @@ function hideUlElement() {
       ulElement.style.display = 'none';
     }
   }
-}
 
-hideUlElement(); // Call the function initially to hide the ul element
+  const image = document.querySelector('#PP');
+  const body = document.body;
 
-function addBlur() {
-  body.classList.add('blurred');
-}
+  function addBlur() {
+    body.classList.add('blurred');
+  }
 
-function removeBlur() {
-  body.classList.remove('blurred');
-}
+  function removeBlur() {
+    body.classList.remove('blurred');
+  }
 
-image.addEventListener('mouseenter', addBlur);
-image.addEventListener('mouseleave', removeBlur);
+  image.addEventListener('mouseenter', addBlur);
+  image.addEventListener('mouseleave', removeBlur);
+});

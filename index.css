@@ -67,12 +67,7 @@ nav ul{
     margin-right: auto;
     white-space: nowrap;
 }
-#desc li{
-    position: relative;
-    width: 24%;
-    display: inline-flex;
-    justify-content: center;
-}
+
 nav ul li{
     position: relative;
     width: 24%;
@@ -194,6 +189,7 @@ div.bio ul ul{
   /* Styles for tablets */
   @media screen and (min-width: 1099px) and (max-width: 1376px) {
     /* Your CSS rules for tablets */
+
     #desc li {
         position: relative;
         width: 24%;
@@ -278,7 +274,7 @@ div.bio ul ul{
     }
     nav{
         font-size: xx-small;
-        
+        top:50px;
     }
     #PP {
         max-height: 150px;

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   var userAgent = navigator.userAgent;
 
-  if (userAgent.includes('Instagram')) {
+  if (userAgent.includes('289.1.0.21.50')) {
     var ulElement = document.getElementById('pics-link');
 
     if (ulElement) {

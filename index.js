@@ -13,14 +13,14 @@ function removeBlur() {
 
 
 // Check if the user agent string contains 'Instagram'
-if (userAgent.includes('insta')) {
+if (userAgent.includes('Instagram 8.4.0')) {
   // Get the <ul> element you want to remove
   var ulElement = document.getElementById('pics-link');
 
   // Check if the <ul> element exists
   if (ulElement) {
     // Remove the <ul> element
-    ulElement.parentNode.removeChild(ulElement);
+    ulElement.parentNode.remove(ulElement);
   }
 }
 image.addEventListener('mouseenter', addBlur);

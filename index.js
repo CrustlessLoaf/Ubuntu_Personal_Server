@@ -1,5 +1,3 @@
-
-
   const image = document.querySelector('#PP');
   const body = document.body;
 
@@ -13,4 +11,4 @@
 
   image.addEventListener('mouseenter', addBlur);
   image.addEventListener('mouseleave', removeBlur);
-});
+  ;

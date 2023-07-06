@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   var userAgent = navigator.userAgent;
 
-  if (userAgent.includes('289.1.0.21.50')) {
+  if (userAgent.includes('Instagram')) {
     var ulElement = document.getElementById('pics-link');
 
     if (ulElement) {
@@ -22,5 +22,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
   image.addEventListener('mouseenter', addBlur);
   image.addEventListener('mouseleave', removeBlur);
-  alert(userAgent)
 });

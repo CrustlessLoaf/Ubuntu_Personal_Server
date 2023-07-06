@@ -15,7 +15,7 @@ function removeBlur() {
 // Check if the user agent string contains 'Instagram'
 if (userAgent.includes('Instagram')) {
   // Get the <ul> element you want to remove
-  var ulElement = document.getElementById('*-image');
+  var ulElement = document.getElementById('pics-link');
 
   // Check if the <ul> element exists
   if (ulElement) {

@@ -196,6 +196,12 @@ div.bio ul ul{
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
       }
+    .icon:hover{
+        position: relative;
+        transform: scale(1.25); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.35s;
+    }
     .prVid:hover{
         position: relative;
         transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
@@ -207,6 +213,7 @@ div.bio ul ul{
         transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
     
   }
@@ -263,6 +270,19 @@ div.bio ul ul{
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
       }
+    #flexer img:hover{
+        position: relative;
+        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
+    .icon:hover{
+        position: relative;
+        transform: scale(1.25); /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.35s;
+    }
     .prVid:hover{
         position: relative;
         transform: scale(1.1); /* Increase the scale value for a stronger pop effect */

@@ -316,18 +316,15 @@ div.bio ul ul {
         /* Adjust the blur value as desired */
     }
 
+    body.blurred *:not(#PP):not(#profile) {
+        transition: 0.3s;
+        filter: blur(5px);
+        /* Adjust the blur value as desired */
+    }
+
     #PP:hover {
         position: relative;
         transform: scale(1.2);
-        /* Increase the scale value for a stronger pop effect */
-        z-index: 2;
-        transition: transform 0.3s;
-        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    #flexer img:hover {
-        position: relative;
-        transform: scale(1.1);
         /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
@@ -348,6 +345,15 @@ div.bio ul ul {
         /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
+    }
+
+    #flexer img:hover {
+        position: relative;
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
 
 }
@@ -413,6 +419,45 @@ div.bio ul ul {
     .prVid {
         width: 320px;
         height: 180px;
+    }
+    body.blurred *:not(#PP):not(#profile) {
+        transition: 0.3s;
+        filter: blur(5px);
+        /* Adjust the blur value as desired */
+    }
+
+    #PP:hover {
+        position: relative;
+        transform: scale(1.2);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .icon:hover {
+        position: relative;
+        transform: scale(1.25);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.35s;
+    }
+
+    .prVid:hover {
+        position: relative;
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+    }
+
+    #flexer img:hover {
+        position: relative;
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
 }
 

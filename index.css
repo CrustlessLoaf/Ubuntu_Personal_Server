@@ -451,7 +451,7 @@ div.bio ul ul {
         height: 180px;
     }
     .course-block{
-        height: 250px;
+        height: 275px;
         width: 300px;
     }
     body.blurred *:not(#PP):not(#profile) {
@@ -561,7 +561,7 @@ div.bio ul ul {
         height: 90px;
     }
     .course-block{
-        height: 250px;
+        height: 275px;
         width: 300px;
     }
 }

@@ -11,3 +11,9 @@
 
   image.addEventListener('mouseenter', addBlur);
   image.addEventListener('mouseleave', removeBlur);
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.body.style.opacity = "1"; // Set the opacity to 1, making the body visible
+    document.body.style.transition="2.5s";
+  });
+  

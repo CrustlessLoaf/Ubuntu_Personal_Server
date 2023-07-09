@@ -6,6 +6,8 @@ body {
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+    opacity: 0; /* Initially hide the paragraph */
+    transition: opacity 1s; /* Add a smooth transition effect */
 }
 
 h2.section {

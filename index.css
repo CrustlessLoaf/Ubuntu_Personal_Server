@@ -200,6 +200,27 @@ div.bio ul ul {
     margin-right: auto;
 
 }
+#undergrad{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.course-block{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    border: solid;
+    border-color: red;
+    border-radius: 1cm;
+}
+
+.new-line {
+    flex-basis: 100%; /* Create an empty div to occupy the full width of the container and force a new line */
+  }
 
 /* Styles for mobile devices */
 @media screen and (min-width: 1377px) {
@@ -348,7 +369,11 @@ div.bio ul ul {
         z-index: 2;
         transition: transform 0.3s;
     }
+    .course-block{
+        height: 300px;
+        width: 360px;
 
+    }
     #flexer img:hover {
         position: relative;
         transform: scale(1.1);
@@ -422,6 +447,10 @@ div.bio ul ul {
         width: 320px;
         height: 180px;
     }
+    .course-block{
+        height: 250px;
+        width: 305px;
+    }
     body.blurred *:not(#PP):not(#profile) {
         transition: 0.3s;
         filter: blur(5px);
@@ -470,7 +499,9 @@ div.bio ul ul {
         font-size: small;
         overflow-x: hidden;
     }
-
+    p {
+        font-size: x-small;
+    }
     h2.section {
         margin-left: 0%;
         margin-right: auto;
@@ -525,5 +556,9 @@ div.bio ul ul {
     .prVid {
         width: 160px;
         height: 90px;
+    }
+    .course-block{
+        height: 250px;
+        width: 305px;
     }
 }

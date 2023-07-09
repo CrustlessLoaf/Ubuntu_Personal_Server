@@ -1,18 +1,20 @@
-body{
+body {
     max-width: 100%;
     text-align: left;
     background: rgb(22, 0, 22);
     color: rgb(32, 247, 42);
     font-size: large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
-h2.section{
+
+h2.section {
     display: inline-flex;
     margin-left: 10%;
     margin-right: auto;
 }
-#nameTitle{
+
+#nameTitle {
     position: fixed;
     width: 100%;
     background-color: rgb(54, 3, 54);
@@ -25,7 +27,7 @@ h2.section{
     text-align: center;
 }
 
-#nameTitle span{
+#nameTitle span {
     color: rgb(20, 255, 40);
     max-width: 100%;
     text-align: center;
@@ -43,16 +45,18 @@ h2.section{
 .linecolor {
     color: red;
 }
-#contact{
+
+#contact {
     background-color: rgb(111, 2, 22);
     margin: auto;
 }
-nav{
+
+nav {
     background-color: rgb(82, 0, 15);
     margin-left: auto;
     margin-right: auto;
     position: sticky;
-    top:70px;
+    top: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
     z-index: 1;
@@ -60,7 +64,8 @@ nav{
     font-size: large;
     font-weight: bold;
 }
-nav ul{
+
+nav ul {
     position: flex;
     justify-content: center;
     margin-left: auto;
@@ -68,68 +73,81 @@ nav ul{
     white-space: nowrap;
 }
 
-nav ul li{
+nav ul li {
     position: relative;
     width: 24%;
     display: inline-flex;
     justify-content: center;
 }
+
 #linkedin {
     color: rgb(9, 223, 27);
     text-decoration: none;
 }
-#instagram{
+
+#instagram {
     color: rgb(9, 223, 27);
     text-decoration: none;
 }
+
 #email {
     color: rgb(9, 223, 27);
     text-decoration: none;
 }
-#resume{
+
+#resume {
     color: rgb(9, 223, 27);
     text-decoration: none;
 }
-#linkedin-image{
+
+#linkedin-image {
     max-height: 90px;
 }
-#email-image{
+
+#email-image {
     max-height: 90px;
 }
-#instagram-image{
+
+#instagram-image {
     max-height: 90px;
 }
-#rez-image{
+
+#rez-image {
     max-height: 90px;
 }
-#profile{
+
+#profile {
     display: flex;
     justify-content: center;
 }
+
 #PP {
     margin-top: 5%;
     margin-bottom: 5%;
     position: relative;
     border-radius: 16cm;
     border: solid;
-    max-height:400px;
- }
- #flexer{
+    max-height: 400px;
+}
+
+#flexer {
     display: flex;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
     max-height: 400px;
- }
- #flexer img{
+}
+
+#flexer img {
     position: relative;
     border-radius: 20cm;
     border: solid;
-    max-height:400px;
+    max-height: 400px;
 
-clip:rect(0px,60px,200px,0px);
+    clip: rect(0px, 60px, 200px, 0px);
 
- }
+}
+
 div.bio {
     display: flex;
     justify-content: center;
@@ -139,87 +157,109 @@ div.bio {
     font-size: large;
     font-weight: bold;
 }
-div.bio ul ul{
+
+div.bio ul ul {
     font-size: small;
 }
+
 #bugatti {
     max-height: 20px;
     overflow: hidden;
 }
-#interestList{
+
+#interestList {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 
 }
-#prTitle{
+
+.icon {
+    text-align: center;
+}
+
+#prTitle {
     display: flex;
     justify-content: space-between;
     width: 100%;
     text-decoration: underline;
 }
-#prTitle span{
+
+#prTitle span {
     flex: 1;
     text-align: center;
 }
-#prs{
+
+#prs {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 /* Styles for mobile devices */
 @media screen and (min-width: 1377px) {
     /* Your CSS rules for mobile */
 
-    p{
+    p {
         font-size: medium;
     }
-    nav{
+
+    nav {
         font-size: medium;
     }
+
     #PP {
         max-width: 300px;
 
     }
-    body.blurred *:not(#PP):not(#profile){
+
+    body.blurred *:not(#PP):not(#profile) {
         transition: 0.3s;
-        filter: blur(5px); /* Adjust the blur value as desired */
+        filter: blur(5px);
+        /* Adjust the blur value as desired */
     }
+
     #PP:hover {
         position: relative;
-        transform: scale(1.2); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.2);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
-      }
-    .icon:hover{
+    }
+
+    .icon:hover {
         position: relative;
-        transform: scale(1.25); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.25);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.35s;
     }
-    .prVid:hover{
+
+    .prVid:hover {
         position: relative;
-        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
     }
-    #flexer img:hover{
+
+    #flexer img:hover {
         position: relative;
-        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-    
-  }
-  
-  /* Styles for tablets */
-  @media screen and (min-width: 1099px) and (max-width: 1376px) {
+
+}
+
+/* Styles for tablets */
+@media screen and (min-width: 1099px) and (max-width: 1376px) {
     /* Your CSS rules for tablets */
 
     #desc li {
@@ -228,71 +268,93 @@ div.bio ul ul{
         display: inline-flex;
         justify-content: center;
     }
-    #linkedin-image{
+
+    #linkedin-image {
         max-height: 60px;
     }
-    #email-image{
+
+    #email-image {
         max-height: 60px;
     }
-    #instagram-image{
+
+    #instagram-image {
         max-height: 60px;
     }
-    #rez-image{
+
+    #rez-image {
         max-height: 60px;
     }
-    p{
+
+    p {
         font-size: small;
     }
-    nav{
+
+    nav {
         font-size: small;
     }
+
     #PP {
         max-height: 200px;
     }
-    #flexer img{
+
+    #flexer img {
         max-height: 200px;
     }
+
     div.bio {
         font-size: small;
         font-weight: bold;
     }
-    div.bio ul ul{
+
+    div.bio ul ul {
         font-size: x-small;
     }
-    body.blurred *:not(#PP){
+
+    body.blurred *:not(#PP) {
         transition: 0.3s;
-        filter: blur(5px); /* Adjust the blur value as desired */
+        filter: blur(5px);
+        /* Adjust the blur value as desired */
     }
+
     #PP:hover {
         position: relative;
-        transform: scale(1.2); /* Increase the scale value for a stronger pop effect */
-        z-index: 2;
-        transition: transform 0.3s;
-        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
-      }
-    #flexer img:hover{
-        position: relative;
-        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.2);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-    .icon:hover{
+
+    #flexer img:hover {
         position: relative;
-        transform: scale(1.25); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .icon:hover {
+        position: relative;
+        transform: scale(1.25);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.35s;
     }
-    .prVid:hover{
+
+    .prVid:hover {
         position: relative;
-        transform: scale(1.1); /* Increase the scale value for a stronger pop effect */
+        transform: scale(1.1);
+        /* Increase the scale value for a stronger pop effect */
         z-index: 2;
         transition: transform 0.3s;
     }
-    
-  }
-  /* Styles for tablets */
-  @media screen and (min-width: 480px) and (max-width: 1099px) {
+
+}
+
+/* Styles for tablets */
+@media screen and (min-width: 480px) and (max-width: 1099px) {
+
     /* Your CSS rules for tablets */
     #desc li {
         position: relative;
@@ -300,98 +362,121 @@ div.bio ul ul{
         display: inline-flex;
         justify-content: center;
     }
-    #linkedin-image{
-        max-height: 40px;
-    }
-    #email-image{
-        max-height: 40px;
-    }
-    #instagram-image{
-        max-height: 40px;
-    }
-    #rez-image{
+
+    #linkedin-image {
         max-height: 40px;
     }
 
-    body{
-        font-size: small;
-        overflow-x:hidden;
+    #email-image {
+        max-height: 40px;
     }
-    p{
+
+    #instagram-image {
+        max-height: 40px;
+    }
+
+    #rez-image {
+        max-height: 40px;
+    }
+
+    body {
+        font-size: small;
+        overflow-x: hidden;
+    }
+
+    p {
         font-size: x-small;
     }
-    nav{
-        font-size: xx-small;
-        top:50px;
-    }
-    #PP {
-        max-height: 150px;
-    }
-    #flexer img{
-        max-height: 150px;
-    }
-    div.bio {
-        font-size: x-small;
-        font-weight: bold;
-    }
-    div.bio ul ul{
-        font-size: xx-small;
-    }
-    .prVid{
-        width: 320px;
-        height: 180px;
-    }
-  }
-  @media screen and (min-width: 0px) and (max-width: 479px) {
-    /* Your CSS rules for tablets */
-    body{
-        font-size: small;
-        overflow-x:hidden;
-    }
-    h2.section{
-        margin-left: 0%;
-        margin-right: auto;
-    }
-    nav{
+
+    nav {
         font-size: xx-small;
         top: 50px;
     }
-    #desc li {
-        width: 20.5%;
-    }
-    nav ul li{
-        width: 20.5%;
-    }
-    #linkedin-image{
-        max-height: 30px;
-    }
-    #email-image{
-        max-height: 30px;
-    }
-    #instagram-image{
-        max-height: 30px;
-    }
-    #rez-image{
-        max-height: 30px;
-    }
+
     #PP {
         max-height: 150px;
     }
-    #flexer img{
+
+    #flexer img {
         max-height: 150px;
     }
+
     div.bio {
         font-size: x-small;
         font-weight: bold;
     }
-    div.bio ul ul{
+
+    div.bio ul ul {
         font-size: xx-small;
     }
-    .prVid{
+
+    .prVid {
+        width: 320px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+    /* Your CSS rules for tablets */
+    body {
+        font-size: small;
+        overflow-x: hidden;
+    }
+
+    h2.section {
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    nav {
+        font-size: xx-small;
+        top: 50px;
+    }
+
+    #desc li {
+        width: 20.5%;
+    }
+
+    nav ul li {
+        width: 20.5%;
+    }
+
+    #linkedin-image {
+        max-height: 30px;
+    }
+
+    #email-image {
+        max-height: 30px;
+    }
+
+    #instagram-image {
+        max-height: 30px;
+    }
+
+    #rez-image {
+        max-height: 30px;
+    }
+
+    #PP {
+        max-height: 150px;
+    }
+
+    #flexer img {
+        max-height: 150px;
+    }
+
+    div.bio {
+        font-size: x-small;
+        font-weight: bold;
+    }
+
+    div.bio ul ul {
+        font-size: xx-small;
+    }
+
+    .prVid {
         width: 160px;
         height: 90px;
     }
-  }
-
-
-
+}

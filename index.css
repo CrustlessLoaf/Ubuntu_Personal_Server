@@ -216,8 +216,11 @@ div.bio ul ul {
     border: solid;
     border-color: red;
     border-radius: 1cm;
-}
 
+}
+.course-block     p{
+    font-weight: bold;
+}
 .new-line {
     flex-basis: 100%; /* Create an empty div to occupy the full width of the container and force a new line */
   }
@@ -449,7 +452,7 @@ div.bio ul ul {
     }
     .course-block{
         height: 250px;
-        width: 305px;
+        width: 325px;
     }
     body.blurred *:not(#PP):not(#profile) {
         transition: 0.3s;
@@ -559,6 +562,6 @@ div.bio ul ul {
     }
     .course-block{
         height: 250px;
-        width: 305px;
+        width: 325px;
     }
 }

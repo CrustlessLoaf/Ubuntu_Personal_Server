@@ -214,8 +214,8 @@ div.bio ul ul {
     height: 350px;
     width: 500px;
     border: solid;
-    border-color: red;
-    border-radius: 1cm;
+    border-color: rgb(228, 8, 209);
+    border-radius: 0.5cm;
 
 }
 .course-block     p{

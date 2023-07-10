@@ -25,7 +25,7 @@ h2.section {
     padding-bottom: 13px;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 3;
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ nav {
     top: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
-    z-index: 1;
+    z-index: 4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
@@ -221,6 +221,7 @@ div.bio ul ul {
 .course-block     p{
     font-weight: bold;
 }
+
 .new-line {
     flex-basis: 100%; /* Create an empty div to occupy the full width of the container and force a new line */
   }
@@ -277,6 +278,13 @@ div.bio ul ul {
         position: relative;
         transform: scale(1.1);
         /* Increase the scale value for a stronger pop effect */
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
+    .course-block:hover{
+        position: relative;
+        transform: scale(1.1);
         z-index: 2;
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
@@ -385,7 +393,13 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-
+    .course-block:hover{
+        position: relative;
+        transform: scale(1.1);
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
 }
 
 /* Styles for tablets */
@@ -493,6 +507,13 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
+    .course-block:hover{
+    position: relative;
+    transform: scale(1.1);
+    z-index: 2;
+    transition: transform 0.3s;
+    box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+}
 }
 
 @media screen and (min-width: 0px) and (max-width: 479px) {

@@ -1,0 +1,233 @@
+#PP {
+   position:relative;
+   display: block;
+   margin-top: -10%;
+   margin-bottom: -10%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 16cm;
+   border: solid;
+   scale: 0.5;
+}
+body{
+    text-align: left;
+    background: rgb(45, 10, 45);
+    color: greenyellow;
+    font-size: x-large;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+nav {
+  width: auto;
+  overflow: hidden;
+}
+
+
+/* Styles for mobile devices */
+@media screen and (min-width: 1024px) and (max-width: 1388px) {
+    /* Your CSS rules for mobile */
+
+    p{
+        font-size: medium;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: small;
+    }
+    #contactList #email{
+        font-size: small;
+    }
+    #PP {
+        scale: 25%;
+        margin-top: -25%;
+        margin-bottom: -25%;
+        display: block;
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 450px) and (max-width: 1023px) {
+    /* Your CSS rules for tablets */
+    p{
+        font-size: small;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: x-small;
+    }
+    #contactList #email{
+        font-size: x-small;
+    }
+    #PP {
+        
+        scale: 12%;
+        margin-top: -45%;
+        margin-bottom: -45%;
+        display: block;
+    }
+  }
+  /* Styles for tablets */
+  @media screen and (min-width: 1px) and (max-width: 449px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+    }
+    p{
+        font-size: xx-small;
+    }
+    #contactList{
+        width: max-content;
+    }
+    #contactList a{
+        font-size: 32%;
+    }
+    #contactList #email{
+        font-size: 42%;
+        padding-right: 35px;
+    }
+    #PP {
+        
+        scale: 10%;
+        margin-top: -60%;
+        margin-bottom: -60%;
+        margin-left: -75%;
+        display: block;
+    }
+  }
+/*@media screen and (max-width: 600px) {
+  #contactList li {
+    font-size: 0.8em;
+    margin: 0 5px;
+  }
+}*/
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-indent: 3ex;
+}
+a{
+    color: lightblue;
+}
+#nameTitle{
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(75,10,75);
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+#nameTitle span{
+    color: forestgreen;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.25em rgb(255, 175, 0);
+    border-style: solid;
+    border-radius: 1cm;
+
+
+}
+
+h2.contact{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: -6%;
+    padding-left: 6%;
+    text-align: left;
+    font-family: Arial, "Trebuchet MS", Helvetica,
+        sans-serif;
+    background-color: rgb(114, 3, 3);
+}
+
+
+
+
+.linecolor {
+    color: blueviolet;
+    cursor: grab;
+}
+
+#contact{
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(114, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 80px;
+}
+
+
+#contactList{
+    position: relative;
+    width: 97%;
+    align-items: center;
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 0;
+    padding-right: 0;
+
+
+}
+#contactList li{
+    position: relative;
+    width: 32.5%;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+.bio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0 auto;
+
+}
+#exp li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul #exp{
+    position: relative;
+    left: 100px;
+    font-size: inherit;
+}
+
+#linkedin {
+    color: rgb(128, 147, 255);
+    text-align: center;
+}
+#instagram{
+    color: rgb(128, 147, 255);
+    text-align: center;
+    font-size: inherit;
+}
+#email {
+    position: inherit;
+    color: rgb(128, 147, 255);
+    text-align: center;
+    text-decoration: underline;
+}
+#resume{
+    position: inherit;
+    color: rgb(128, 147, 255);
+    text-align: center;
+}

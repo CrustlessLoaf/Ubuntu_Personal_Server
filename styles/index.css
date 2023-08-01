@@ -6,8 +6,10 @@ body {
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
-    opacity: 0; /* Initially hide the paragraph */
-    transition: opacity 1s; /* Add a smooth transition effect */
+    opacity: 0;
+    /* Initially hide the paragraph */
+    transition: opacity 1s;
+    /* Add a smooth transition effect */
 }
 
 h2.section {
@@ -118,9 +120,33 @@ nav ul li {
     max-height: 90px;
 }
 
+#banner {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    object-fit: cover;
+
+}
+#motorcycle{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit:cover;
+    object-position: center 0px -10%
+}
+
 #profile {
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -450px;
+    margin-bottom: auto;
+    
+
 }
 
 #PP {
@@ -200,14 +226,16 @@ div.bio ul ul {
     margin-right: auto;
 
 }
-#undergrad{
+
+#undergrad {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
 }
-.course-block{
+
+.course-block {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -218,13 +246,15 @@ div.bio ul ul {
     border-radius: 0.5cm;
 
 }
-.course-block     p{
+
+.course-block p {
     font-weight: bold;
 }
 
 .new-line {
-    flex-basis: 100%; /* Create an empty div to occupy the full width of the container and force a new line */
-  }
+    flex-basis: 100%;
+    /* Create an empty div to occupy the full width of the container and force a new line */
+}
 
 /* Styles for mobile devices */
 @media screen and (min-width: 1377px) {
@@ -241,6 +271,34 @@ div.bio ul ul {
     #PP {
         max-width: 300px;
 
+    }
+    #banner {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 500px;
+        object-fit: cover;
+    
+    }
+    #motorcycle{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit:cover;
+        object-position: center 0px -10%
+    }
+    
+    #profile {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -450px;
+        margin-bottom: auto;
+        
+    
     }
 
     body.blurred *:not(#PP):not(#profile) {
@@ -282,7 +340,8 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-    .course-block:hover{
+
+    .course-block:hover {
         position: relative;
         transform: scale(1.1);
         z-index: 2;
@@ -326,7 +385,34 @@ div.bio ul ul {
     nav {
         font-size: small;
     }
-
+    #banner {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 500px;
+        object-fit: cover;
+    
+    }
+    #motorcycle{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit:cover;
+        object-position: center 0px -10%
+    }
+    
+    #profile {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -450px;
+        margin-bottom: auto;
+        
+    
+    }
     #PP {
         max-height: 200px;
     }
@@ -374,11 +460,13 @@ div.bio ul ul {
         z-index: 2;
         transition: transform 0.3s;
     }
-    .course-block{
+
+    .course-block {
         height: 300px;
         width: 360px;
 
     }
+
     #flexer img:hover {
         position: relative;
         transform: scale(1.1);
@@ -387,7 +475,8 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-    .course-block:hover{
+
+    .course-block:hover {
         position: relative;
         transform: scale(1.1);
         z-index: 2;
@@ -436,7 +525,34 @@ div.bio ul ul {
         font-size: xx-small;
         top: 50px;
     }
-
+    #banner {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 300px;
+        object-fit: cover;
+    
+    }
+    #motorcycle{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit:cover;
+        object-position: center 0px -10%
+    }
+    
+    #profile {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -300px;
+        margin-bottom: auto;
+        
+    
+    }
     #PP {
         max-height: 150px;
     }
@@ -458,10 +574,12 @@ div.bio ul ul {
         width: 320px;
         height: 180px;
     }
-    .course-block{
+
+    .course-block {
         height: 275px;
         width: 325px;
     }
+
     body.blurred *:not(#PP):not(#profile) {
         transition: 0.3s;
         filter: blur(5px);
@@ -501,13 +619,14 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-    .course-block:hover{
-    position: relative;
-    transform: scale(1.1);
-    z-index: 2;
-    transition: transform 0.3s;
-    box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
-}
+
+    .course-block:hover {
+        position: relative;
+        transform: scale(1.1);
+        z-index: 2;
+        transition: transform 0.3s;
+        box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 479px) {
@@ -517,9 +636,11 @@ div.bio ul ul {
         font-size: small;
         overflow-x: hidden;
     }
+
     p {
         font-size: x-small;
     }
+
     h2.section {
         margin-left: 0%;
         margin-right: auto;
@@ -553,9 +674,36 @@ div.bio ul ul {
     #rez-image {
         max-height: 30px;
     }
-
+    #banner {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 300px;
+        object-fit: cover;
+    
+    }
+    #motorcycle{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit:cover;
+        object-position: center 0px -10%
+    }
+    
+    #profile {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -200px;
+        margin-bottom: auto;
+        
+    
+    }
     #PP {
-        max-height: 150px;
+        max-height: 100px;
     }
 
     #flexer img {
@@ -575,7 +723,8 @@ div.bio ul ul {
         width: 160px;
         height: 90px;
     }
-    .course-block{
+
+    .course-block {
         height: 275px;
         width: 325px;
     }

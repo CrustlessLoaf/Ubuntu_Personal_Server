@@ -15,7 +15,7 @@ body {
     /* Add a smooth transition effect */
 }
 
-h2 {
+h2.section {
     display: inline-flex;
     margin-left: 10%;
     margin-right: auto;

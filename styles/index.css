@@ -578,7 +578,10 @@ div.bio ul ul {
         font-size: small;
         overflow-x: hidden;
     }
-
+    h2.section {
+        margin-left: 0%;
+        margin-right: auto;
+    }
     p {
         font-size: x-small;
     }
@@ -632,6 +635,8 @@ div.bio ul ul {
     div.bio {
         font-size: x-small;
         font-weight: bold;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     div.bio ul ul {
@@ -783,6 +788,8 @@ div.bio ul ul {
     div.bio {
         font-size: x-small;
         font-weight: bold;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     div.bio ul ul {

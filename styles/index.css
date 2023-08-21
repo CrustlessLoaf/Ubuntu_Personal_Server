@@ -15,7 +15,7 @@ body {
     /* Add a smooth transition effect */
 }
 
-h2.section {
+h2 {
     display: inline-flex;
     margin-left: 10%;
     margin-right: auto;
@@ -398,7 +398,9 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-
+    .course-block {
+        height: 375px;
+    }
     .course-block:hover {
         position: relative;
         transform: scale(1.1);

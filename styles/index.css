@@ -14,7 +14,9 @@ body {
     transition: opacity 1s;
     /* Add a smooth transition effect */
 }
-
+h2{
+    overflow-x: hidden;
+}
 h2.section {
     display: inline-flex;
     margin-left: 10%;

@@ -1,5 +1,7 @@
 body {
     max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
     background: rgb(22, 0, 22);
     color: rgb(32, 247, 42);
@@ -22,6 +24,8 @@ h2.section {
     position: fixed;
     width: 100%;
     background-color: rgb(54, 3, 54);
+    margin-left: auto;
+    margin-right: auto;
     margin: auto;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -54,20 +58,25 @@ h2.section {
     background-color: rgb(111, 2, 22);
     margin: auto;
 }
-
-#nava ul {
-    position: flex;
+#nava{
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+#nava ul {
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
+    width: 100%;
+    padding-left: 0;
 }
 
 #nava ul li {
     position: relative;
-    width: 33%;
     display: inline-flex;
     justify-content: center;
+    width: 33%;
     font-family: sans-serif;
     font-weight: bold;
 
@@ -103,11 +112,12 @@ h2.section {
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
+    padding-left: 0;
 }
 
 #links ul li {
     position: relative;
-    width: 24%;
+    width: 25%;
     display: inline-flex;
     justify-content: center;
 }
@@ -181,6 +191,7 @@ h2.section {
 #PP {
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 0;
     position: relative;
     border-radius: 16cm;
     border: solid;
@@ -712,12 +723,6 @@ div.bio ul ul {
         width: 20.5%;
     }
 
-    nav ul li {
-        width: 20.5%;
-    }
-    #links ul li {
-        width: 20.5%;
-    }
     #linkedin-image {
         max-height: 30px;
     }

@@ -71,7 +71,7 @@ nav{
 @media screen and (min-width: 1124px) and (max-width: 1932) {
     /* Your CSS rules for mobile */
 
-    p.art{
+    pre.art{
         font-size: large;
     }
   }
@@ -79,7 +79,7 @@ nav{
   /* Styles for tablets */
   @media screen and (min-width: 777px) and (max-width: 1123px) {
     /* Your CSS rules for tablets */
-    p.art{
+    pre.art{
         font-size: medium;
 
   }
@@ -87,7 +87,7 @@ nav{
   /* Styles for tablets */
   @media screen and (min-width: 480px) and (max-width: 777px) {
     /* Your CSS rules for tablets */
-    p.art{
+    pre.art{
         font-size: medium;
     }
 }
@@ -96,8 +96,8 @@ nav{
     body{
         font-size: small;
     }
-    p.art{
-        font-size: .4em;
+    pre.art{
+        font-size: x-small;
     }
     #nameTitle2 span{
         font-size: large;

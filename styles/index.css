@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     max-width: 100%;
     text-align: left;
     background: rgb(22, 0, 22);
@@ -22,6 +23,8 @@ h2.section {
     position: fixed;
     width: 100%;
     background-color: rgb(54, 3, 54);
+    margin-left: auto;
+    margin-right: auto;
     margin: auto;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -54,20 +57,25 @@ h2.section {
     background-color: rgb(111, 2, 22);
     margin: auto;
 }
-
-#nava ul {
-    position: flex;
+#nava{
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+#nava ul {
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
+    width: 100%;
+    padding-left: 0;
 }
 
 #nava ul li {
     position: relative;
-    width: 33%;
     display: inline-flex;
     justify-content: center;
+    width: 33%;
     font-family: sans-serif;
     font-weight: bold;
 
@@ -75,6 +83,7 @@ h2.section {
 
 
 #nava ul li a {
+    color: rgb(105, 105, 255);
     padding-left: 20px;
     padding-right: 20px;
     border: 0.25em rgb(222, 111, 0);
@@ -103,11 +112,12 @@ h2.section {
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
+    padding-left: 0;
 }
 
 #links ul li {
     position: relative;
-    width: 24%;
+    width: 25%;
     display: inline-flex;
     justify-content: center;
 }
@@ -181,6 +191,7 @@ h2.section {
 #PP {
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 0;
     position: relative;
     border-radius: 16cm;
     border: solid;
@@ -348,8 +359,10 @@ div.bio ul ul {
     }
     #nava ul li a:hover{
         transform: scale(1.2);
+        background-color: red;
         transition: transform 0.3s;
     }
+    
     #PP:hover {
         position: relative;
         transform: scale(1.2);
@@ -383,7 +396,9 @@ div.bio ul ul {
         transition: transform 0.3s;
         box-shadow: 22px 22px 20px rgba(0, 0, 0, 0.3);
     }
-
+    .course-block {
+        height: 375px;
+    }
     .course-block:hover {
         position: relative;
         transform: scale(1.1);
@@ -564,7 +579,10 @@ div.bio ul ul {
         font-size: small;
         overflow-x: hidden;
     }
-
+    h2.section {
+        margin-left: 0%;
+        margin-right: auto;
+    }
     p {
         font-size: x-small;
     }
@@ -618,6 +636,8 @@ div.bio ul ul {
     div.bio {
         font-size: x-small;
         font-weight: bold;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     div.bio ul ul {
@@ -695,11 +715,6 @@ div.bio ul ul {
         font-size: x-small;
     }
 
-    h2.section {
-        margin-left: 0%;
-        margin-right: auto;
-    }
-
     nav {
         font-size: xx-small;
         top: 50px;
@@ -712,12 +727,6 @@ div.bio ul ul {
         width: 20.5%;
     }
 
-    nav ul li {
-        width: 20.5%;
-    }
-    #links ul li {
-        width: 20.5%;
-    }
     #linkedin-image {
         max-height: 30px;
     }
@@ -775,6 +784,8 @@ div.bio ul ul {
     div.bio {
         font-size: x-small;
         font-weight: bold;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     div.bio ul ul {

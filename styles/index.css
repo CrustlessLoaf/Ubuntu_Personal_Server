@@ -51,6 +51,7 @@ h2.section {
 
 hr.linecolor {
     color: red;
+    border-color: red;
 }
 
 #contact {

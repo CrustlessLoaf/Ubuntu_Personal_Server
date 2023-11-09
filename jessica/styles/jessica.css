@@ -109,6 +109,8 @@ div[class*="Box"]
 
     /* Your CSS rules for tablets */
     body {
+        margin-right: auto;
+        margin-left: auto;
         font-size: small;
         overflow-x: hidden;
         background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');

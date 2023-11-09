@@ -130,7 +130,7 @@ div[class*="Box"]
         padding-top: 100px;
         max-height: 250px;
         max-width: 350;
-        background-position: -350px center;
+        background-position: -350px 0;
         background-size: 700px;
         margin-left: auto;
         margin-right: auto;

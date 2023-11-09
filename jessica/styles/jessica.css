@@ -108,10 +108,13 @@ div[class*="Box"]
 @media screen and (min-width: 0px) and (max-width: 479px) {
 
     /* Your CSS rules for tablets */
+    #title{
+        font-size: medium;
+    }
     body {
         margin-right: auto;
         margin-left: auto;
-        font-size: small;
+        font-size: medium;
         overflow-x: hidden;
         background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
         background-size: 300%;

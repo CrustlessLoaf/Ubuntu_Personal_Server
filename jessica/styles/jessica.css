@@ -107,18 +107,7 @@ div[class*="Box"]
 
 @media screen and (min-width: 0px) and (max-width: 479px) {
 
-    /* Your CSS rules for tablets */
     body {
-        font-size: small;
-        overflow-x: hidden;
-        background-size: 300%;
-        background-position: 50% 10%;
-        overflow-x: hidden;
-    }
-
-    p {
-        font-size: x-small;
-    }
-
-    
+        transform: scale(0.8); /* 80% */
+      }
 }

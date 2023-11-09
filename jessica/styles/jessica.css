@@ -130,8 +130,9 @@ div[class*="Box"]
         padding-top: 100px;
         max-height: 250px;
         max-width: 350;
-        background-position: -350px 0;
-        background-size: 700px;
+        background-image: url("../images/cute.JPG");
+        background-position: -350px center;
+        background-size: 400px;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;

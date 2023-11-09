@@ -103,3 +103,19 @@ div[class*="Box"]
 {
     text-align: center;
 }
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+    /* Your CSS rules for tablets */
+    body {
+        font-size: small;
+        overflow-x: hidden;
+        background-size: 130%;
+    }
+
+    p {
+        font-size: x-small;
+    }
+
+    
+}

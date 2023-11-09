@@ -2,6 +2,7 @@ body{
     background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
     background-position: center 10%;
     background-size: 100%;
+    overflow-x: hidden;
 }
 #title{
     margin-top: 10%;
@@ -110,7 +111,7 @@ div[class*="Box"]
     body {
         font-size: small;
         overflow-x: hidden;
-        background-size: 250%;
+        background-size: 300%;
         background-position: center 10%;
     }
 

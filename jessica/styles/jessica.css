@@ -114,7 +114,9 @@ div[class*="Box"]
         background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
         overflow-x: hidden;
         overflow-x: hidden;
+        background-repeat: no-repeat;
         object-fit: contain;
+
     }
 
     p {

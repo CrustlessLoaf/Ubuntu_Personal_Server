@@ -110,7 +110,8 @@ div[class*="Box"]
     body {
         font-size: small;
         overflow-x: hidden;
-        background-size: 200%;
+        background-size: 250%;
+        background-position: center 10%;
     }
 
     p {

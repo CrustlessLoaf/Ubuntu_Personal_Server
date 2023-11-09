@@ -108,6 +108,9 @@ div[class*="Box"]
 @media screen and (min-width: 0px) and (max-width: 479px) {
 
     body {
-        transform: scale(0.8); /* 80% */
+        background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
+        background-position: center 10%;
+        background-size: 100%;
+        overflow-x: hidden;
       }
 }

@@ -145,15 +145,14 @@ div[class*="Box"]
     background-size: 1200px;
 
 }
-.right-cut
-{
+.right-content{
     position: relative;
-    margin-left: -800px;
-    width: 600px;
-    background-color: #d1bca0;
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
-    float: left;
-    color:white;
+    display: flex;
+    top: 65%;
+    right: -70%;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-family:Brush Script MT, Brush Script Std, cursive;
 }
 }

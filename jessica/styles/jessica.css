@@ -136,7 +136,6 @@ div[class*="Box"]
         max-width: 250px;
         margin-left: auto;
         margin-right: auto;
-        justify-content: center;
         filter: drop-shadow(33px 25px 22px rgba(0, 0, 0, 0.5));
         height: 40vh;
         padding-bottom: 6.5vw;

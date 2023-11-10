@@ -111,7 +111,7 @@ div[class*="Box"]
         font-size: medium;
     }
     body {
-        display: block;
+        display: flex;
         margin-right: auto;
         margin-left: auto;
         font-size: medium;

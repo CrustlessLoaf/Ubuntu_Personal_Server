@@ -65,7 +65,7 @@ display: block;
 {
     position: relative;
     margin-left: -600px;
-    width: fit-content;
+    width: 600px;
     background-color: #d1bca0;
     -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
@@ -169,5 +169,16 @@ div[class*="Box"]
         font-weight: 700;
         color: rgb(0, 0, 0);
         font-family:sans-serif;
+    }
+    .right-cut
+    {
+        position: relative;
+        margin-left: -600px;
+        width: 300px;
+        background-color: #d1bca0;
+        -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+        float: left;
+        color:white;
     }
 }

@@ -112,6 +112,7 @@ div[class*="Box"]
     }
     body {
         display: flex;
+        justify-content: center;
         margin-right: auto;
         margin-left: auto;
         font-size: medium;

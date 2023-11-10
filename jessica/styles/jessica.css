@@ -184,6 +184,7 @@ div[class*="Box"]
     .signature{
         font-family:Brush Script MT, Brush Script Std, cursive;
         font-size: x-large;
+        width: 500px;
     }
     .right-content p {
         font-size: medium;

@@ -3,6 +3,7 @@ body{
     background-position: center 10%;
     background-size: 100%;
     overflow-x: hidden;
+    align-items: center;
 }
 #title{
     margin-top: 10%;

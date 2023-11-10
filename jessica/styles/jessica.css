@@ -187,6 +187,6 @@ div[class*="Box"]
         font-size: x-large;
     }
     .right-content p {
-        font-size: large;
+        font-size: medium;
     }
 }

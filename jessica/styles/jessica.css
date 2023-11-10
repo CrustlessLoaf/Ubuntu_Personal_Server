@@ -163,7 +163,7 @@ div[class*="Box"]
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        max-width: 70%;
+        max-width: 75%;
         justify-content: center;
         font-size: large;
         font-weight: 700;
@@ -174,7 +174,7 @@ div[class*="Box"]
     {
         position: relative;
         margin-left: -250px;
-        width: 400px;
+        width: 300px;
         background-color: #d1bca0;
         -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);

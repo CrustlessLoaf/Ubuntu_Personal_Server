@@ -75,7 +75,7 @@ display: block;
 
 
 .right-content{
-    position: relative;
+    position: absolute;
     display: flex;
     top: 65%;
     right: -50%;

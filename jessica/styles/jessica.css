@@ -95,7 +95,10 @@ display: block;
     height: 40vh;
     padding-bottom: 6.5vw;
 }
-
+.signature{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+}
 div[class*="Box"]
 {
     text-align: center;

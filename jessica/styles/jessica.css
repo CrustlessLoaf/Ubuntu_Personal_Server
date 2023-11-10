@@ -131,11 +131,12 @@ div[class*="Box"]
     .container
     {
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
         padding-top: 15px;
         max-height: 250px;
         max-width: 250px;
-        margin-left: auto;
-        margin-right: auto;
         filter: drop-shadow(33px 25px 22px rgba(0, 0, 0, 0.5));
         height: 40vh;
         padding-bottom: 6.5vw;

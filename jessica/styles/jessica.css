@@ -186,4 +186,7 @@ div[class*="Box"]
         font-family:Brush Script MT, Brush Script Std, cursive;
         font-size: x-large;
     }
+    .right-content p {
+        font-size: large;
+    }
 }

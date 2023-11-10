@@ -65,7 +65,7 @@ display: block;
 {
     position: relative;
     margin-left: -600px;
-    max-width: 100%;
+    width: fit-content;
     background-color: #d1bca0;
     -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);

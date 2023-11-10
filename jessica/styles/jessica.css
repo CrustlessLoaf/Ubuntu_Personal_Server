@@ -75,7 +75,7 @@ display: block;
 
 
 .right-content{
-    position: absolute;
+    position: relative;
     display: flex;
     top: 65%;
     right: -50%;
@@ -83,6 +83,9 @@ display: block;
     color: black;
     font-size: xx-large;
     font-family:Brush Script MT, Brush Script Std, cursive;
+}
+.right-content p {
+    font-size: xx-large;
 }
 .container
 {

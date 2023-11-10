@@ -179,4 +179,8 @@ div[class*="Box"]
         float: left;
         color:white;
     }
+    .signature{
+        font-family:Brush Script MT, Brush Script Std, cursive;
+        font-size: x-large;
+    }
 }

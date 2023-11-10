@@ -114,6 +114,7 @@ div[class*="Box"]
         display: block;
         margin-right: auto;
         margin-left: auto;
+        padding-left: 50%;
         font-size: medium;
         overflow-x: hidden;
         background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');

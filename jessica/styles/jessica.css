@@ -173,7 +173,7 @@ div[class*="Box"]
     .right-cut
     {
         position: relative;
-        margin-left: -300px;
+        margin-left: -250px;
         width: 300px;
         background-color: #d1bca0;
         -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);

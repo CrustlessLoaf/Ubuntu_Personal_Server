@@ -176,8 +176,8 @@ div[class*="Box"]
         margin-left: -200px;
         width: 300px;
         background-color: #d1bca0;
-        -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(110% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(110% 0, 100% 0, 100% 100%, 0 100%);
         float: left;
         color:white;
     }

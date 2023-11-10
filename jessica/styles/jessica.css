@@ -87,7 +87,7 @@ display: block;
 .right-content p {
     font-size: xx-large;
 }
-.content-wrapper
+.container
 {
     display: flex;
     padding-top: 100px;

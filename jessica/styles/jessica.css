@@ -117,7 +117,7 @@ div[class*="Box"]
         overflow-x: hidden;
         background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
         background-size: 280%;
-        background-position: -320px center;
+        background-position: -325px center;
         background-repeat: no-repeat;
 
     }
@@ -161,7 +161,7 @@ div[class*="Box"]
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        max-width: 60%;
+        max-width: 70%;
         justify-content: center;
         font-size: large;
         font-weight: 700;

@@ -732,6 +732,13 @@ div.bio ul ul {
         font-size: xx-small;
         top: 50px;
     }
+    #links ul li {
+    	position: relative;
+    	width: 19.5%;
+    	display: inline-flex;
+    	justify-content: center;
+    }
+
     #links {
         font-size: xx-small;
         top: 50px;

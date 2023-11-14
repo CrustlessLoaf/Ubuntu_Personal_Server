@@ -83,10 +83,11 @@ display: block;
     text-align: center;
     color: black;
     font-size: xx-large;
-    font-family:Brush Script MT, Brush Script Std, cursive;
+    
 }
 .right-content p {
     font-size: xx-large;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 .container
 {
@@ -100,7 +101,7 @@ display: block;
     padding-bottom: 6.5vw;
 }
 .signature{
-    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: xx-large;
 }
 div[class*="Box"]

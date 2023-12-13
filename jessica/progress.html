@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timers</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2d2d2d;
+  	    color: white;	
+        }
+        .countdown-container {
+            margin-top: 50px;
+        }
+        .countdown {
+            font-size: 36px;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #ddd;
+            height: 30px;
+            margin-top: 20px;
+        }
+        .progress {
+            height: 100%;
+            background-color: #4caf50;
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Graduation Countdown</h1>
+
+    <div class="countdown-container">
+	<h3>Dr. Joshua Loading...</h3>
+        <div class="countdown" id="countdown1"></div>
+        <div class="progress-bar">
+            <div class="progress" id="progress1"></div>
+        </div>
+    </div>
+
+    <div class="countdown-container">
+	<h3>Dr. Jessica Loading...</h3>
+        <div class="countdown" id="countdown2"></div>
+        <div class="progress-bar">
+            <div class="progress" id="progress2"></div>
+        </div>
+    </div>
+
+    <script>
+        // Set the target dates for the countdowns
+        const joshua = new Date("August 31, 2026 00:00:00").getTime();
+        const jessica = new Date("December 31, 2026 00:00:00").getTime();
+
+        function updateCountdown(targetDate, countdownId, progressId) {
+            const currentDate = new Date().getTime();
+            const timeDifference = targetDate - currentDate;
+
+            // Calculate days, hours, minutes, and seconds
+            const years = Math.floor(timeDifference / (1000 * 60 * 60 * 24 * 365.25));
+            const days = Math.floor((timeDifference % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            document.getElementById(countdownId).innerHTML = `${years}y ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            // Update the progress bar
+            const progress = 100 - (timeDifference / (1000 * 60 * 60 * 24 * 1825)) * 100; // 1825 days in total
+            document.getElementById(progressId).style.width = progress + "%";
+        }
+
+        // Update the countdowns every second
+        setInterval(function() {
+            updateCountdown(joshua, "countdown1", "progress1");
+            updateCountdown(jessica, "countdown2", "progress2");
+        }, 1000);
+
+        // Initial call to set up the countdowns
+        updateCountdown(joshua, "countdown1", "progress1");
+        updateCountdown(jessica, "countdown2", "progress2");
+
+    </script>
+</body>
+</html>

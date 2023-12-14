@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #2d2d2d;
-  	    color: white;	
+            color: white;
         }
         .countdown-container {
             margin-top: 50px;
@@ -36,7 +36,7 @@
     <h1>Graduation Countdown</h1>
 
     <div class="countdown-container">
-	<h3>Dr. Joshua Loading...</h3>
+        <h3>Dr. Joshua Loading...</h3>
         <div class="countdown" id="countdown1"></div>
         <div class="progress-bar">
             <div class="progress" id="progress1"></div>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="countdown-container">
-	<h3>Dr. Jessica Loading...</h3>
+        <h3>Dr. Jessica Loading...</h3>
         <div class="countdown" id="countdown2"></div>
         <div class="progress-bar">
             <div class="progress" id="progress2"></div>
@@ -55,8 +55,10 @@
         // Set the target dates for the countdowns
         const joshua = new Date("August 31, 2026 00:00:00").getTime();
         const jessica = new Date("December 31, 2026 00:00:00").getTime();
+	jessicaStart = new Date("September 5, 2023 00:00:00").getTime();
+	joshuaStart = new Date("September 6, 2021 00:00:00").getTime();
 
-        function updateCountdown(targetDate, countdownId, progressId) {
+        function updateCountdown(targetDate, startDate, countdownId, progressId) {
             const currentDate = new Date().getTime();
             const timeDifference = targetDate - currentDate;
 
@@ -71,19 +73,19 @@
             document.getElementById(countdownId).innerHTML = `${years}y ${days}d ${hours}h ${minutes}m ${seconds}s`;
 
             // Update the progress bar
-            const progress = 100 - (timeDifference / (1000 * 60 * 60 * 24 * 1825)) * 100; // 1825 days in total
+            const progress = 100 - (timeDifference/(targetDate-startDate)) * 100;
             document.getElementById(progressId).style.width = progress + "%";
         }
 
         // Update the countdowns every second
         setInterval(function() {
-            updateCountdown(joshua, "countdown1", "progress1");
-            updateCountdown(jessica, "countdown2", "progress2");
+            updateCountdown(joshua, joshuaStart, "countdown1", "progress1");
+            updateCountdown(jessica, jessicaStart, "countdown2", "progress2");
         }, 1000);
 
         // Initial call to set up the countdowns
-        updateCountdown(joshua, "countdown1", "progress1");
-        updateCountdown(jessica, "countdown2", "progress2");
+        updateCountdown(joshua, joshuaStart, "countdown1", "progress1");
+        updateCountdown(jessica, jessicaStart, "countdown2", "progress2");
 
     </script>
 </body>

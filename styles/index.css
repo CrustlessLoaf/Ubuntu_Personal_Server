@@ -272,6 +272,29 @@ div.bio ul ul {
 
 }
 
+#grad {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+#grad div.course-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: fit-content;
+    border: solid;
+    border-color: rgb(228, 8, 209);
+    border-radius: 0.5cm;
+
+}
+
+
 #undergrad {
     display: flex;
     justify-content: center;
@@ -291,7 +314,7 @@ div.bio ul ul {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: 300px;
     width: 500px;
     border: solid;
     border-color: rgb(228, 8, 209);
@@ -822,6 +845,13 @@ div.bio ul ul {
         width: 160px;
         height: 90px;
     }
+
+#grad div.course-block p {
+    
+    font-size:0.55em;
+
+}
+
 
     .course-block {
         height: 275px;

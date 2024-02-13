@@ -50,6 +50,11 @@ body{
     body{
         font-size: small;
     }
+    #nameTitle span {
+        font-size: medium;
+
+
+    }
     #paperdiv{
         display: flex;
         background-color: rgb(235, 235, 176);   

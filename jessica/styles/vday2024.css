@@ -53,7 +53,7 @@ body{
         padding:0 0 0 0;
     }
     #cardimage{
-
+        height: max-content;
     }
 
 }

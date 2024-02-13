@@ -53,10 +53,7 @@ body{
         padding:0 0 0 0;
     }
     #cardimage{
-        display: flex;
-        width: 200%;
-        margin-left: 0;
-        margin-right: 0;
+
     }
 
 }

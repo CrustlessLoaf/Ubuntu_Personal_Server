@@ -148,7 +148,7 @@ body{
         font-size: small;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 0 20%;
+        background-position: 400px;
     }
     #nameTitle span {
         font-size: medium;

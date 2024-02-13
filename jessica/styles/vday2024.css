@@ -42,3 +42,21 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    #paperdiv{
+        display: flex;
+        background-color: rgb(235, 235, 176);   
+        flex-wrap: wrap;
+        margin-left: 40%;
+        margin-right: 40%;
+        padding:0 0 0 0;
+    }
+    #cardimage{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+}

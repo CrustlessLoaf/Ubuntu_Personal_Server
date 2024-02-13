@@ -1,6 +1,7 @@
 body{
     background-color: rgb(139, 0, 0);
     background-image: url(../images/77ccd0eb094289ee0065d38d65ef6a33.jpg);
+    background-size: cover;
     overflow-x: hidden;
     margin-left: auto;
     margin-right: auto;

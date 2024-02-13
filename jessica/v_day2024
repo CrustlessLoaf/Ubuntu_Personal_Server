@@ -25,8 +25,8 @@
         <div>
             <p class="bio">
                 Last year I laid out what a Valentine was, if you don't remember click <a
-                    href="./vday_server/index.htm">here</a> is a quick refresher. From that list you <b>still tick every box!</b>
-                You are more than a Valentine but..., <br><b>will you be my valentine?</b>
+                    href="./vday_server/index.htm">here</a> for a refresher. From that list you <b>still tick every box!</b>
+                So my cutie..., <br><b>will you be my valentine?</b>
                 <br>
             <form>
                 <input type="radio" id="yes" name="valentine" value="yes">
@@ -36,7 +36,7 @@
                 <input type="radio" id="YES" name="valentine" value="YES!">
                 <label for="YES">YEEEESSSSSS!!!!!!!</label>
             </form>
-            In reality you are more than a Valentine. In searching for some label you fit I came across this:
+            In reality, you are much more than a Valentine. While I was searching for a label, I came across this:
             <ul id="exp">
                 <li>Love of someone's life:</li>
                 <ul>
@@ -47,7 +47,7 @@
             </ul>
             </p>
         </div>
-        <b>I do not say this without conscious, By the definition of this ideom, you my Baby, are the Love of My Life</b> &#128536;&#9829;</b>
+        <b>I do not say this without conscious! By the definition of this ideom, you my Baby, are the Love of My Life</b> &#128536;&#9829;</b>
     </div>
 
     <div id="cardimage">

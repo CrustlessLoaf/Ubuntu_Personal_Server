@@ -1,5 +1,7 @@
 body{
     background-color: rgb(139, 0, 0);
+    background-image:url(../../../../Downloads/77ccd0eb094289ee0065d38d65ef6a33.jpg);
+    background-size: contain;
     overflow-x: hidden;
 }
 #nameTitle{
@@ -114,6 +116,7 @@ body{
 @media screen and (min-width: 480px) and (max-width: 880px) {
     body{
         font-size: small;
+        background-size: cover;
     }
     #nameTitle span {
         font-size: medium;
@@ -141,6 +144,7 @@ body{
 @media screen and (min-width: 0px) and (max-width: 479px) {
     body{
         font-size: small;
+        background-size: cover;
     }
     #nameTitle span {
         font-size: medium;

@@ -47,6 +47,9 @@ body{
     width: 40%;
 }
 @media screen and (min-width: 0px) and (max-width: 479px) {
+    body{
+        font-size: small;
+    }
     #paperdiv{
         display: flex;
         background-color: rgb(235, 235, 176);   

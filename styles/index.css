@@ -180,9 +180,7 @@ hr.linecolor {
     margin-right: auto;
     width: 100%;
     object-fit: cover;
-    object-position: 50% 45%;
-    transform: scale(1.2);
-    /*object-position: center 0px -10%*/
+    object-position: center 0px -10%
 }
 
 #profile {
@@ -369,8 +367,7 @@ div.bio ul ul {
         margin-right: auto;
         width: 100%;
         object-fit: cover;
-        object-position: 50% 45%;
-        transform: scale(1.2)
+        object-position: center 0px -10%
     }
 
     #profile {
@@ -498,8 +495,7 @@ div.bio ul ul {
         margin-right: auto;
         width: 100%;
         object-fit: cover;
-        object-position: center 0px -10%;
-        transform: scale(1);
+        object-position: center 0px -10%
     }
 
     #profile {
@@ -652,8 +648,7 @@ div.bio ul ul {
         margin-right: auto;
         width: 100%;
         object-fit: cover;
-        object-position: center 0px -10%;
-        transform: scale(1);
+        object-position: center 0px -10%
     }
 
     #profile {
@@ -814,8 +809,7 @@ div.bio ul ul {
         margin-right: auto;
         width: 100%;
         object-fit: cover;
-        object-position: 50% 50%;
-        transform: scale(1);
+        object-position: center 0px -10%
     }
 
     #profile {

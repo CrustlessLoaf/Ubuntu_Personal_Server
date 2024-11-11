@@ -1,0 +1,6 @@
+<FilesMatch ".*">
+  AuthType Basic
+  AuthName "Restricted Access"
+  AuthUserFile /home/crustless/web_pass/.htpasswd
+  Require valid-user
+</FilesMatch>

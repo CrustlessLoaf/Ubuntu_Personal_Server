@@ -175,7 +175,7 @@ div[class*="Box"]
         right: -50%;
         text-align: center;
         color: black;
-        font-size: large;
+        font-size: medium;
         font-family:Brush Script MT, Brush Script Std, cursive;
     }
     .beginning {
@@ -184,8 +184,8 @@ div[class*="Box"]
         margin-right: auto;
         max-width: 75%;
         justify-content: center;
-        font-size: small;
-        font-weight:800;
+        font-size: medium;
+        font-weight: 700;
         color: rgb(0, 0, 0);
         font-family:sans-serif;
     }

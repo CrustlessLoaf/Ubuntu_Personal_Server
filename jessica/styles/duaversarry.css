@@ -99,7 +99,7 @@ display: block;
     right: -55%;
     text-align: center;
     color: black;
-    font-size: large;
+    font-size: xx-large;
     
 }
 .right-content p {
@@ -175,7 +175,8 @@ div[class*="Box"]
         right: -50%;
         text-align: center;
         color: black;
-        font-size: medium;
+        font-size: large;
+        font-weight: 700;
         font-family:Brush Script MT, Brush Script Std, cursive;
     }
     .beginning {

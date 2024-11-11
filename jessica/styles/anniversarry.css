@@ -1,0 +1,192 @@
+body{
+    background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
+    background-position: center 10%;
+    background-size: 100%;
+    overflow-x: hidden;
+    align-items: center;
+}
+#title{
+    margin-top: 10%;
+    margin-bottom: -5%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    font-family:sans-serif;
+}
+.beginning {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family:sans-serif;
+}
+.beginning p{
+display: block;
+
+}
+
+#papys{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left-cut
+{
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    background-image: url("../images/cute.JPG");
+    background-position: -350px center;
+    background-size: 1200px;
+    -webkit-clip-path: polygon(0 0, 0 0, 110% 0%, 0 110%);
+    clip-path: polygon(0 0, 0 0, 110% 0%, 0 110%);
+    float: left;    z-index: 3;
+}
+#us{
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    overflow: hidden;
+
+
+}
+
+.right-cut
+{
+    position: relative;
+    margin-left: -600px;
+    width: 600px;
+    background-color: #d1bca0;
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+    float: left;
+    color:white;
+}
+
+
+.right-content{
+    position: relative;
+    display: flex;
+    top: 65%;
+    right: -50%;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    
+}
+.right-content p {
+    font-size: xx-large;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.container
+{
+    display: flex;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    filter: drop-shadow(33px 25px 22px rgba(0, 0, 0, 0.5));
+    height: 40vh;
+    padding-bottom: 6.5vw;
+}
+.signature{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+}
+div[class*="Box"]
+{
+    text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+    /* Your CSS rules for tablets */
+    #title{
+        font-size: medium;
+    }
+    body {
+        display: block;
+        overflow-x: hidden;
+        background-image: url('../images/gay_upscayl_4x_ultramix_balanced.png');
+        background-size: 280%;
+        background-position: -325px center;
+        background-repeat: no-repeat;
+
+    }
+
+    p {
+        font-size: x-small;
+    }
+
+    .container
+    {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding-top: 15px;
+        max-height: 250px;
+        max-width: 250px;
+        filter: drop-shadow(33px 25px 22px rgba(0, 0, 0, 0.5));
+        height: 40vh;
+        padding-bottom: 6.5vw;
+    }
+    .left-cut
+    {
+
+        background-image: url("../images/cute.JPG");
+        background-position: -275px center;
+        background-size: 800px;
+
+    }
+    .right-content{
+        position: relative;
+        display: flex;
+        top: 67%;
+        right: -42%;
+        text-align: center;
+        color: black;
+        font-size: xx-large;
+        font-family:Brush Script MT, Brush Script Std, cursive;
+    }
+    .beginning {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 75%;
+        justify-content: center;
+        font-size: large;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        font-family:sans-serif;
+    }
+    .right-cut
+    {
+        position: relative;
+        margin-left: -250px;
+        width: 300px;
+        background-color: #d1bca0;
+        -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+        float: left;
+        color:white;
+    }
+    .signature{
+        font-family:Brush Script MT, Brush Script Std, cursive;
+        font-size: x-large;
+    }
+    .right-content p {
+        font-size: medium;
+    }
+}

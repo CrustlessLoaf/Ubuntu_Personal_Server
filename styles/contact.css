@@ -1,0 +1,107 @@
+body{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    text-align: left;
+    background: rgb(22, 0, 22);
+    color: rgb(32, 247, 42);
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+h2.section{
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: auto;
+}
+#nameTitle{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(54, 3, 54);
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+#nameTitle span{
+    color: rgb(20, 255, 40);
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.25em rgb(222, 111, 0);
+    border-style: solid;
+    border-radius: 1cm;
+
+
+}
+
+div.object-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.square-container{
+    background-color: rgb(8, 172, 8);
+    margin: auto auto auto auto;
+}
+#linkedin{
+    max-height: 100px;
+}
+#email-image{
+    max-height: 100px;
+}
+#instagram{
+    max-height: 100px;
+}
+/* Styles for mobile devices */
+@media screen and (min-width: 1377px) {
+    /* Your CSS rules for mobile */
+
+    p{
+        font-size: medium;
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 1099px) and (max-width: 1376px) {
+    /* Your CSS rules for tablets */
+    p{
+        font-size: small;
+    }
+    
+  }
+  /* Styles for tablets */
+  @media screen and (min-width: 480px) and (max-width: 1099px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+        overflow-x:hidden;
+    }
+    p{
+        font-size: x-small;
+    }
+    
+  }
+  @media screen and (min-width: 1px) and (max-width: 479px) {
+    /* Your CSS rules for tablets */
+    body{
+        font-size: small;
+        overflow-x:hidden;
+    }
+    h2.section{
+        margin-left: 0%;
+        margin-right: auto;
+    }
+  }
+
+
+

@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(139, 0, 0);
+    background-image: url(../images/77ccd0eb094289ee0065d38d65ef6a33.jpg);
+    background-size: cover;
+    background-repeat:round;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nameTitle{
+    position: fixed;
+    color: rgb(179, 0, 0);
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(235, 176, 176);   
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+#nameTitle span {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.25em rgb(255, 141, 47);
+    border-style: solid;
+    border-radius: 1cm;
+
+
+}
+#paperdiv{
+    display: flex;
+    background-color: rgb(235, 235, 176);   
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:0 0 0 0;
+}
+#love {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cardimage{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cardimage img{
+    width: 40%;
+}
+@media screen and (min-width: 3268px){
+    body{
+        font-size: x-large;
+    }
+    #nameTitle span {
+        font-size: xx-large;
+
+
+    }
+}
+@media screen and (min-width: 1081px) and (max-width:1902px){
+    body{
+        font-size: large;
+    }
+    #nameTitle span {
+        font-size: larger;
+
+
+    }
+    #paperdiv{
+        display: flex;
+        background-color: rgb(235, 235, 176);   
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0 0 0 0;
+    }
+    #cardimage{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #cardimage img{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width: 881px) and (max-width: 1080px) {
+    body{
+        font-size: medium;
+    }
+    #nameTitle span {
+        font-size: large;
+
+
+    }
+    #paperdiv{
+        display: flex;
+        background-color: rgb(235, 235, 176);   
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0 0 0 0;
+    }
+    #cardimage{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #cardimage img{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 880px) {
+    body{
+        font-size: small;
+    }
+    #nameTitle span {
+        font-size: medium;
+
+
+    }
+    #paperdiv{
+        display: flex;
+        background-color: rgb(235, 235, 176);   
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0 0 0 0;
+    }
+    #cardimage{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #cardimage img{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    body{
+        font-size: small;
+    }
+    #nameTitle span {
+        font-size: medium;
+
+
+    }
+    #paperdiv{
+        display: flex;
+        background-color: rgb(235, 235, 176);   
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0 0 0 0;
+    }
+    #cardimage{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #cardimage img{
+        width: 80%;
+    }
+
+
+}

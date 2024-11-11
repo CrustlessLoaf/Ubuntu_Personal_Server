@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name="keywords" content="joshua green, joshua green resume, joshua green web server">
+    <meta name="description" content="This is a page for joshuas webserver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Server</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+
+
+    <h1 id="nameTitle"><span id="gay">Joshua Green</span></h1>
+
+    <br><br><br>
+
+    <div id="banner">
+        <img id="motorcycle" src="./images/motorcycle.jpg" alt="">
+    </div>
+    <div id="profile">
+        <img id="PP" src="./ZZ_Joshua.jpg" alt="Joshua Green Photo">
+    </div>
+
+    <hr class="linecolor">
+
+    <nav>
+        <ul id="pics-link">
+            <li><a id="linkedin" href="https://www.linkedin.com/in/joshua-green-373521144/">
+                    <div class="icon">
+                        <img id="linkedin-image" src="./images/linkedin.png"><br>
+                        <span>LinkedIn</span>
+                    </div>
+                </a>
+            </li>
+
+            <li><a id="instagram" href="https://www.instagram.com/jaayyy_g/">
+                    <div class="icon">
+                        <img id="instagram-image" src="./images/insta.png"><br>
+                        <span>Instagram</span>
+                    </div>
+                </a>
+            </li>
+            <li><a id="email" href="mailto:joshuamdgreen@outlook.com">
+                    <div class="icon">
+                        <img id="email-image" src="./images/email.png"><br>
+                        <span>Email</span>
+                    </div>
+                </a>
+            </li>
+
+            <li><a id="resume" href="JoshuaGreen_CV.pdf">
+                    <div class="icon">
+                        <img id="rez-image" src="./images/rez.png"><br>
+                        <span>Resume/CV</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <hr class="linecolor">
+    <h5>If your name is Jessica Slater, click <a href="./jessica.html">this</a></h5>
+    <h2 class="section">Biography:</h2>
+    <br>
+    <div class="bio">
+        <p>
+            Hello! I am Joshua Green, an accomplished Electrical Engineer with a profound passion for exploring the
+            realms of
+            Communication Systems and Data Networking. My educational journey has been nothing short of exciting and
+            rewarding. I am currently pursuing my Master's degree (M.E.Sc.) in Electrical Engineering at Western
+            University focused in Wireless Communication and Data Networking, where I delved into the fascinating world
+            of Wireless Network Security and Wireless Communication. Prior to that, I obtained my Bachelor's degree
+            (B.E.Sc.) in Electrical Engineering from the same institution, focusing on Wireless Communication.
+            <br>
+            <br>
+            Throughout my academic pursuits, I have developed a diverse range of skills that make me a versatile
+            engineer. From programming proficiency in C++, Python, MATLAB, and assembly to scripting abilities in Linux,
+            Bash, and Perl, I have embraced the technical challenges with enthusiasm. My expertise extends to HTML/CSS,
+            javascript, and Git with this webserver project hosted on my dying laptop using Ubuntu.
+        </p>
+    </div>
+    <br>
+    <div class="bio">
+        <p>
+            In terms of experience, my experience is very diverse. I have been successful at many different goals,
+            titles,
+            and projects. <br>
+            To list a few experiences,
+            <br>
+        </p>
+    </div>
+    <div class="bio">
+        <ul>
+            <li>Graduate Teaching Assistant for courses:</li>
+            <ul>
+                <li>ECE3331B: Introduction to Signal Processing,
+                <li>ECE4436A: Networking: Principles, Protocols and Architectures,
+                <li>ECE 2236B: Magnetic Circuits and Transmission Lines.
+            </ul>
+            <li>Controls Engineer Intern</li>
+            <ul>
+                <li>At General Motors Cami Assembly Plant in Ingersoll Ontario.
+            </ul>
+            <li>Mcdonald's Shift Manager</li>
+            <ul>
+                <li>Became Manager at 17 years of age,</li>
+                <li>Became crew trainer at 16 years of age.</li>
+            </ul>
+
+        </ul>
+    </div>
+
+    </p>
+
+    <hr class="linecolor">
+
+    <h2 class="section">
+        Personal Interests:</h2>
+    <div id="interestList">
+        <ul>
+            <li> Weight training:
+                <ul>
+                    <li>Push/Pull/Legs x2 per week = 6 days per week</li>
+                </ul>
+            </li>
+            <li>My Theme Song: <audio id="bugatti" src="./What_color_is_your_bugatti.mp3" type="audio/mpeg" controls
+                    autoplay>My theme song</audio></li>
+            <li>Optimizing the tradeoff between being lean and lifting heavy subject to power and quality of life
+                constraints. Proof 1:</li>
+        </ul>
+    </div>
+    <div id="flexer">
+        <img src="./images/flex.png">
+    </div>
+    <h2 id="prTitle">
+        <span>Deadlift: 485-lbs</span>
+        <span>Squat: 410-lbs</span>
+        <span>Bench: 275-lbs</span>
+    </h2>
+    <div id="prs">
+        <video class="prVid" src="./prs/deadlift.mp4" alt="deadlifting 485lbs" width="640" height="360" controls
+            preload="auto"></video>
+        <video class="prVid" src="./prs/squat.mp4" alt="squating 405lbs" width="640" height="360" controls
+            preload="auto"></video>
+        <video class="prVid" src="./prs/bench.mp4" alt="benching 275lbs" width="640" height="360" controls
+            preload="auto"></video>
+    </div>
+    <br>
+    <hr class="linecolor">
+    <br>
+    <h2>Graduate Course List:</h2>
+    <div id="undergrad">
+        <div class="course-block" style="height:fit-content;">
+            <p>
+                ECE 9305A: APPLIED PROBABILITY THEORY I<br>
+                ECE 9603A: DATA ANALYTICS FOUNDATIONS <br>
+                COMPSCI 9636A: NETWORK SECURITY<br>
+                ECE 9609B: INTRO TO HACKING <br>
+            </p>
+        </div>
+    </div>
+    <br>
+    <h2>Undergraduate Course Lists:</h2>
+    <div id="undergrad">
+        <div class="course-block">
+            <h4>First Year:</h4>
+            <p>
+                APPLMATH 1411B: LNR ALG NUM ANALYSIS FOR ENG <br>
+                APPLMATH 1413: APP MATH FOR ENGRS I<br>
+                BUSINESS 1299E: BUSINESS FOR ENGINEERS <br>
+                CHEM 1302B: DISCOVERING CHEMICAL ENERGETIC<br>
+                ENGSCI 1021A: PROPERTIES OF MATERIALS<br>
+                ENGSCI 1022Y: ENGINEERING STATICS<br>
+                ENGSCI 1036A: PRGRMMNG FUNDAMNTLS FOR ENGNRS<br>
+                ENGSCI 1050: INTRO ENG DESIGN & INNOVTN STU<br>
+                PHYSICS 1401A: PHYSICS FOR ENG STDNTS I<br>
+                PHYSICS 1402B: PHYSICS FOR ENG STDNTS II <br>
+            </p>
+        </div>
+        <div class="course-block">
+            <h4>Second Year:</h4>
+            <p>
+                APPLMATH 2270A: APPLIED MATH FOR ENGINEER II<br>
+                APPLMATH 2276B: APP MATH ELEC & MEC ENG III<br>
+                COMPSCI 1037A: COMP SCI FUNDAMENTALS II<br>
+                ECE 2205A: ELECTRIC CIRCUITS<br>
+                ECE 2231B: INTRO TO ELECTRONICS<br>
+                ECE 2233B: CIRCUITS AND SYSTEMS<br>
+                ECE 2236B: MAGNTC CRCTS & TRANSMSSN LINES<br>
+                ECE 2240A: ELECTRICAL LABORATORY I<br>
+                ECE 2241B: ELECTRICAL LABORATORY II<br>
+                ECE 2277A: DIGITAL LOGIC SYSTEMS<br>
+                MME 2234B: HEAT TRANSFER AND DYNAMICS<br>
+                WRITING 2130F: BETTER COMMUNICATION BRIDGES <br>
+            </p>
+        </div>
+        <div class="new-line">
+            <p><br></p>
+        </div>
+        <div class="course-block">
+            <h4>Third Year:</h4>
+            <p>
+                APPLMATH 3415A: ADV APPL MATH ELEC ENGINEERING<br>
+                ECE 3330A: CONTROL SYSTEMS<br>
+                ECE 3331B: INTRO TO SIGNAL PROCESSING<br>
+                ECE 3332A: ELECTRIC MACHINES<br>
+                ECE 3333B: ELECTRIC POWER SYSTEMS I<br>
+                ECE 3336B: ELECTROMAGNETIC THEORY<br>
+                ECE 3337A: ELECTRONIC CIRCUITS<br>
+                ECE 3370B: COMMUNICATION ELECTRONICS I<br>
+                ECE 3375B: MICROPROCESSORS & MICROCOMP<br>
+                ECE 3399B: DESIGN OF ELECTRONIC SYSTEMS<br>
+                PSYCHOL 2035A: UNDRSTNDING YOURSELF & OTHERS<br>
+                STATS 2141A: APPL PROB & STATS FOR ENGINEER <br>
+            </p>
+        </div>
+
+        <div class="course-block">
+            <h4>Fourth Year:</h4>
+            <p>
+                ECE 3380B: ADVANCED DIGITAL SYSTEMS<br>
+                ECE 4416: ELECTRICAL/COMPUTER PROJECT<br>
+                ECE 4429A: ADV DIGITAL SIGNAL PROCESSING<br>
+                ECE 4432A: RADIATION AND PROPAGATION<br>
+                ECE 4433B: DIGITAL COMMUNICATIONS SYSTEMS<br>
+                ECE 4436A: NETWORKING<br>
+                ECE 4437A: COMMUNICATIONS THEORY<br>
+                ECE 4460B: REAL-TIME & EMBEDDED SYSTEMS<br>
+                GEOGRAPH 2010B: GEOGRAPHY OF CANADA<br>
+                PHILOSOP 2200F: ANCIENT PHILOSOPHY<br>
+            </p>
+        </div>
+    </div>
+    <script src="./javascript/index.js"></script>
+</body>
+
+</html>

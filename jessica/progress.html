@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timers</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2d2d2d;
+            color: white;
+        }
+        .countdown-container {
+            margin-top: 50px;
+        }
+        .countdown {
+            font-size: 36px;
+        }
+        .progress-bar{
+	    position:relative;
+            width: 100%;
+            background-color: #ddd;
+            height: 30px;
+            margin-top: 20px;
+        }
+        .progress {
+            height: 100%;
+            background-color: #4caf50;
+            width: 0;
+        }
+        .percentage {
+            position: absolute;
+	    margin-left:auto;
+	    margin-right:auto;
+  	    top: 50%;
+	    left: 50%;
+  	    transform: translate(-50%, -50%);
+            color: black;
+}
+	@media screen and (min-width: 0px) and (max-width: 479px) {
+	    h1{
+	        font-size:x-large;
+	    }
+	}
+    </style>
+</head>
+<body>
+
+    <h1>&#x1F393;Graduation Countdown&#x1F393;</h1>
+
+    <div class="countdown-container">
+        <h3>&#x26A1;&#x1F9D1;&#x200D;&#x2695;&#xFE0F;Dr. Joshua Loading...</h3>
+        <div class="countdown" id="countdown1"></div>
+        <div class="progress-bar">
+		<div class="percentage" id="percentage1">0% A Doctor</div>            
+		<div class="progress" id="progress1"></div>
+	</div>
+
+    </div>
+
+    <div class="countdown-container">
+        <h3>&#x1F9B4;&#x1F469;&#x200D;&#x2695;&#xFE0F;Dr. Jessica Loading...</h3>
+        <div class="countdown" id="countdown2"></div>
+        <div class="progress-bar">
+	    <div class="percentage" id="percentage2">0%</div>
+            <div class="progress" id="progress2"></div>
+</div>
+    </div>
+
+    <script>
+        // Set the target dates for the countdowns
+        const joshua = new Date("August 31, 2026 00:00:00").getTime();
+        const jessica = new Date("November 23, 2026 00:00:00").getTime();
+	jessicaStart = new Date("September 5, 2023 00:00:00").getTime();
+	joshuaStart = new Date("September 6, 2021 00:00:00").getTime();
+
+        function updateCountdown(targetDate, startDate, countdownId, progressId, percentageId) {
+            const currentDate = new Date().getTime();
+            const timeDifference = targetDate - currentDate;
+
+            // Calculate days, hours, minutes, and seconds
+            const years = Math.floor(timeDifference / (1000 * 60 * 60 * 24 * 365.25));
+            const days = Math.floor((timeDifference % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            document.getElementById(countdownId).innerHTML = `${years}y ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            // Update the progress bar
+            const progress = 100 - (timeDifference/(targetDate-startDate)) * 100;
+            document.getElementById(progressId).style.width = progress + "%";
+	    document.getElementById(percentageId).textContent = `${Math.round(100 - (timeDifference/(targetDate-startDate)) * 100)}%`;
+        }
+
+        // Update the countdowns every second
+        setInterval(function() {
+            updateCountdown(joshua, joshuaStart, "countdown1", "progress1", "percentage1");
+            updateCountdown(jessica, jessicaStart, "countdown2", "progress2", "percentage2");
+        }, 1000);
+
+        // Initial call to set up the countdowns
+        updateCountdown(joshua, joshuaStart, "countdown1", "progress1", "percentage1");
+        updateCountdown(jessica, jessicaStart, "countdown2", "progress2", "percentage2");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="" en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name="keywords" content="joshua green, joshua green resume, joshua green web server">
+    <meta name="description" content="This is a page for joshuas webserver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines's Day</title>
+    <link rel="stylesheet" href="./styles/vday2024.css">
+
+</head>
+
+<body>
+    <h1 id="nameTitle"><span>&#9829;&#9829;Happy Valentines Day Baby&#9829;&#9829;</h1>
+    <br><br><br>
+
+    <div id="paperdiv">
+        <div>
+            <h2>To my Jessica Baby &#128536;:</h2>
+        </div>
+        <br>
+        <div>
+            <p class="bio">
+                Last year I laid out what a Valentine was, if you don't remember click <a
+                    href="./vday_server/index.htm">here</a> for a refresher. From that list you <b>still tick every box!</b>
+                So my cutie..., <br><b>will you be my valentine?</b>
+                <br>
+            <form>
+                <input type="radio" id="yes" name="valentine" value="yes">
+                <label for="yes">yes</label>
+                <input type="radio" id="Yes" name="valentine" value="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" id="YES" name="valentine" value="YES!">
+                <label for="YES">YEEEESSSSSS!!!!!!!</label>
+            </form>
+            In reality, you are much more than a Valentine. While I was searching for a label, I came across this:
+            <ul id="exp">
+                <li>Love of someone's life:</li>
+                <ul>
+                <li><a href="https://www.merriam-webster.com/dictionary/the%20love%20of%20someone%27s%20life" id="lmao">Websters
+                    Definition</a> of the ideom "the love of someone's life" is "the person someone loves more than any other person at any time in life""</li>
+                <li>This would mean that somone never has, AND never will, love another as much as this person</li>
+            </ul>
+            </ul>
+            </p>
+
+        <b>I do not say this without conscious! By the definition of this ideom, you my Baby, are the Love of My Life</b> &#128536;&#9829;</b>
+        <br>
+    </div>
+        <div id="love">
+        <h3>&#128536;&#128536; I LOVE YOU JESSICA &#128536;&#128536;</h3>
+    </div>
+    </div>
+
+    <div id="cardimage">
+
+        <img src="./images/Love.png" alt="cute">
+
+
+    </div>
+
+
+    </p>
+</body>
+
+</html>

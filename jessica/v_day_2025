@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="" en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name="keywords" content="joshua green, joshua green resume, joshua green web server">
+    <meta name="description" content="This is a page for joshuas webserver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines's Day</title>
+    <link rel="stylesheet" href="./styles/vday2025.css">
+
+</head>
+
+<body>
+    <div class="love_vid" id="LV">
+        <video id="love" autoplay playsinline>
+            <source src="../prs/bench.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="mainContent">
+        <h1 id="nameTitle"><span>&#9829;&#9829;Happy Valentines Day Baby&#9829;&#9829;</h1>
+    </div>
+    <script src="vday_2025.js"></script>
+</body>
+
+</html>

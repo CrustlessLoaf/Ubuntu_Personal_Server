@@ -2,7 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoContainer = document.getElementById("LV");
     const introVideo = document.getElementById("love");
     const mainContent = document.getElementById("mainContent");
-
+    unmuteBtn.addEventListener("click", () => {
+        introVideo.muted = false;
+        introVideo.play(); // Ensure video plays after unmuting
+        unmuteBtn.style.display = "none"; // Hide button after unmuting
+    });
     // Wait for the video to finish playing
     introVideo.addEventListener("loadedmetadata", () => {
         const videoDuration = introVideo.duration; // Get video duration in seconds

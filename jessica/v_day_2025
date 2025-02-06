@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="" en">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,8 +15,10 @@
 
 <body>
     <div class="love_vid" id="LV">
-        <video id="love" autoplay playsinline>
-            <source src="../prs/bench.mov" type="video/mp4">
+        <button id="unmuteBtn">🔊 Unmute</button>
+        <video id="love" autoplay muted playsinline>
+            
+            <source src="./vids/Vday.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>

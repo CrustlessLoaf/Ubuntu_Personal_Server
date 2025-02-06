@@ -32,6 +32,26 @@ body{
 
 
 }
+#unmuteBtn{
+  position: inherit;
+  width: 100px; /* Adjust size */
+  height: 100px; /* Make it a perfect circle */
+  border-radius: 50%; /* Ensures circular shape */
+  border: none;
+  background-color: rgb(17, 62, 211); /* Change color if needed */
+  color: white;
+  font-size: 24px; /* Adjust text/icon size */
+  cursor: pointer;
+  position: fixed;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+#unmuteBtn:hover {
+  transform: scale(1.1); /* Slight hover effect */
+  background-color: darkred;
+}
 .love_vid {
     position: absolute;
     top: 0;

@@ -69,7 +69,7 @@ body{
 .love_vid video {
   width: 100%; /* Make video responsive */
   height: 100%; /* Fill the container */
-  object-fit: contain; /* Ensures the entire video is visible, without cropping */
+  object-fit: cover; /* Ensures the entire video is visible, without cropping */
 }
 
  .love_vid.hidden {

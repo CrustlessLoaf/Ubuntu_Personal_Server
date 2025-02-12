@@ -1,12 +1,11 @@
 body{
     background-color: rgb(224, 44, 38);
+    background-image: url(../images/77ccd0eb094289ee0065d38d65ef6a33.jpg);
+    background-size: cover;
+    background-repeat:round;
     overflow-x: hidden;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../images/77ccd0eb094289ee0065d38d65ef6a33.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
 }
 
 #nameTitle{
@@ -65,7 +64,7 @@ body{
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  opacity: 1;
+  opacity: 0;
   transition: opacity 1s ease-out;
   z-index: 10;
 }

@@ -40,7 +40,7 @@
     <div>
         <p id="ILOVE">I LOVE YOU!!!</p>
     </div>
-    <script src="vday_2025.js"></script>
+    <script src="./vday_2025.js"></script>
 </body>
 
 </html>

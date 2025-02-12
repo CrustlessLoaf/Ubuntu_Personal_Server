@@ -25,6 +25,21 @@
     <div class="mainContent">
         <h1 id="nameTitle"><span>&#9829;&#9829;Happy Valentines Day Baby&#9829;&#9829;</h1>
     </div>
+    <div id="card">
+        <img id="outlineHeart" src="./images/simple-heart-outline-11-2818877306.png">
+        <p>To: My Jessica <br>Will you be my Valentines? </p>
+        <form>
+            <input type="radio" id="yes" name="valentine" value="yes">
+            <label for="yes">yes</label>
+            <input type="radio" id="Yes" name="valentine" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="YES" name="valentine" value="YES!">
+            <label for="YES">YES!!!!!</label>
+        </form>
+    </div>
+    <div>
+        <p id="ILOVE">I LOVE YOU!!!!</p>
+    </div>
     <script src="vday_2025.js"></script>
 </body>
 

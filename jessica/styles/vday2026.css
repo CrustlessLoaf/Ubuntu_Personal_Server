@@ -1,0 +1,67 @@
+body{
+    background-image: url('../images/il_600x600.4360859286_615u.webp');
+    background-position: center 10%;
+    background-repeat: repeat;
+    background-size: 25%;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: -100px; */
+    margin-bottom: -50px;
+}
+#title img {
+    max-height: 500px;
+}
+#scroll {
+  position: relative;     /* ✅ anchor absolute children here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrolltext {
+  position: absolute;
+  z-index: 2;             /* ✅ ensure on top of image */
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  font-size: clamp(24px, 4vw, 60px);
+  color: #7a001f;
+  padding-left: 50%;
+}
+.scrolltext2 {
+  position: absolute;
+  z-index: 2;             /* ✅ ensure on top of image */
+  top: 825px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  font-size: clamp(12px, 4vw, 35px);
+  font-kerning: none;
+  color: #7a001f;
+  padding-left: 50%;
+}
+#scroll img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+#main_v {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+
+}
